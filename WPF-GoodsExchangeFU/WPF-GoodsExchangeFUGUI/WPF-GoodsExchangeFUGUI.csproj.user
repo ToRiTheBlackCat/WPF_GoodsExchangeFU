@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DetailProductWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DetailWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ExchangeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageAccountWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageExchangeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ModWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OwnExchangeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OwnInfoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OwnProductWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserInfoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WaitingProductWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WaitingReportWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DetailProductWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DetailWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ExchangeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageAccountWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageExchangeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ModWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OwnExchangeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OwnInfoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OwnProductWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserInfoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WaitingProductWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WaitingReportWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

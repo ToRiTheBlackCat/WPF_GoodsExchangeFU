@@ -1,12 +1,35 @@
-﻿<Window x:Class="WPF_GoodsExchangeFUGUI.WaitingProductWindow"
+﻿<Window x:Name="WaitingProduct_Window" x:Class="WPF_GoodsExchangeFUGUI.WaitingProductWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="WaitingProductWindow" Height="450" Width="800">
+        Title="WaitingProductWindow"  Height="700" Width="1020" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" MinWidth="1020" MaxWidth="1020" MinHeight="700" MaxHeight="700" Loaded="WaitingProduct_Window_Loaded">
     <Grid>
-        
+        <Label Content="WAITING PRODUCT LIST" HorizontalAlignment="Center" Height="87" Margin="0,10,0,0" VerticalAlignment="Top" Width="726" FontSize="60" FontWeight="Bold" FontFamily="Arial" Foreground="#FFFD6C06"/>
+        <DataGrid x:Name="WaitingProductListGataGrid" HorizontalAlignment="Center" Height="510" Margin="0,151,0,0" VerticalAlignment="Top" Width="1000" AutoGenerateColumns="False" FontSize="16" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="30" Binding="{Binding ProductId}"/>
+                <DataGridTextColumn Header="Name" Width="150" Binding="{Binding ProductName}"/>
+                <DataGridTextColumn Header="Image" Width="200" Binding="{Binding ProductImage}"/>
+                <!--<DataGridTemplateColumn Header="Image" Width="200">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding ./upload/ProductImage}" Height="100"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                <DataGridTextColumn Header="Description" Width="280" Binding="{Binding ProductDescription}"/>
+                <DataGridTextColumn Header="Type ID" Width="70" Binding="{Binding TypeId}"/>
+                <DataGridTextColumn Header="Type Name" Width="95" Binding="{Binding Type.TypeName}"/>
+                <DataGridTextColumn Header="Price" Width="80" Binding="{Binding ProductPrice}"/>
+                <DataGridTextColumn Header="Owner" Width="120" Binding="{Binding User.UserName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="AcceptProductButton" Content="Accept Product" HorizontalAlignment="Left" Height="44" Margin="213,87,0,0" VerticalAlignment="Top" Width="267" Background="#FFFFB264" FontSize="24" FontWeight="Bold" FontFamily="Arial" Foreground="White" Click="AcceptProductButton_Click"/>
+        <Button x:Name="DenyProductButton" Content="Deny Product" HorizontalAlignment="Left" Height="44" Margin="564,87,0,0" VerticalAlignment="Top" Width="267" Background="#FFF5635C" FontSize="24" FontWeight="Bold" FontFamily="Arial" Foreground="White" Click="DenyProductButton_Click"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Height="40" Margin="10,32,0,0" VerticalAlignment="Top" Width="88" Background="#FFA2A2A2" FontSize="24" FontWeight="Bold" FontFamily="Arial" Foreground="White" Click="BackButton_Click"/>
+
     </Grid>
 </Window>

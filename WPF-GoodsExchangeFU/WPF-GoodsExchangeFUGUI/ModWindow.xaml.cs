@@ -23,5 +23,30 @@ namespace WPF_GoodsExchangeFUGUI
         {
             InitializeComponent();
         }
+
+        private void HomePageButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new();
+            mainWindow.ShowDialog();
+        }
+
+        private void WaitingProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            WaitingProductWindow waitingProductWindow = new();
+            waitingProductWindow.ShowDialog();
+        }
+
+        private void WaitingReportButton_Click(object sender, RoutedEventArgs e)
+        {
+            WaitingReportWindow waitingReportWindow = new();
+            waitingReportWindow.ShowDialog();
+        }
+
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult answer = MessageBox.Show("Do you want to logout and quit?", "Quit", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+                Application.Current.Shutdown();
+        }
     }
 }

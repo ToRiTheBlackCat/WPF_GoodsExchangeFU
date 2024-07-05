@@ -3284,19 +3284,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
       "projectName": "WPF-GoodsExchangeFUGUI",
-      "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3304,14 +3309,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\Services.csproj"
             }
           }
         }

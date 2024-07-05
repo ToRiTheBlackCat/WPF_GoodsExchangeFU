@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Repositories.Entities;
+using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,68 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class ManageAccountWindow : Window
     {
+        private readonly UserService _userService; 
         public ManageAccountWindow()
         {
             InitializeComponent();
+            _userService = new UserService();
+            LoadAccount();
+        }
+
+        private void LoadAccount()
+        {
+            List<User> users = _userService.GetAllUSer();
+            AccountsDataGrid.ItemsSource = users;
+        }
+
+        private void CreateModButton_Click(object sender, RoutedEventArgs e)
+        {
+            string username = NewUsernameTextBox.Text;
+            string email = NewEmailTextBox.Text;
+            string password = NewPasswordBox.Password;
+            string phone = NewPhoneTextBox.Text;    
+
+            if(!string.IsNullOrWhiteSpace(email) && !string.IsNullOrWhiteSpace(username)&& !string.IsNullOrWhiteSpace(password))
+            {
+                User user = new User
+                {
+                    UserName = username,
+                    Email = email,
+                    Password = password,
+                    Phone = phone,
+                    RoleId = 2
+                };
+                _userService.CreateUser(user);
+                LoadAccount();
+                ClearInpuFields();
+            }
+            else
+            {
+                MessageBox.Show("Please fill all field");
+            }
+        }
+
+        private void ClearInpuFields()
+        {
+            NewUsernameTextBox.Clear();
+            NewEmailTextBox.Clear();
+            NewPasswordBox.Clear();
+            NewPhoneTextBox.Clear();
+        }
+
+        private void RefreshButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoadAccount();
+            ClearInpuFields ();
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(sender is FrameworkElement frameworkElement && frameworkElement.DataContext is User user) 
+            {
+                _userService.DeleteUser(user.UserId);
+                LoadAccount();
+            }
         }
     }
 }

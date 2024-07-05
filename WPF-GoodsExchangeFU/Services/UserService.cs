@@ -24,5 +24,28 @@ namespace Services
                 throw new Exception("User not found");
             }
         }
+
+        public User? AuthenticateUser(string email, string password) {
+            return _repo.GetUserByEmailandPassword(email, password);
+        }
+
+        public List<User> GetAllUSer()
+        {
+            return _repo.GetAllUsers();
+        }
+        public void CreateUser(User user)
+        {
+            _repo.CreateUser(user);
+        }
+
+        public void DeleteUser(int userId)
+        {
+            _repo.DeleteUser(userId);
+        }
+
+        public List<Exchange> GetAllExchange()
+        {
+            return _repo.GetAllExchange();
+        }
     }
 }

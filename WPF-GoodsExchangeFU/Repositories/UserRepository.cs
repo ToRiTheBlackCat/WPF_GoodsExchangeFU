@@ -1,4 +1,5 @@
-﻿using Repositories.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Repositories.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,34 @@ namespace Repositories
         {
             _context = new();
             return _context.Users.FirstOrDefault(u => u.UserId == userId);
+        }
+
+        public User GetUserByEmailandPassword(string email, string password)
+        {
+            _context = new();
+            return _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
+        }
+        public List<User> GetAllUsers()
+        {
+            _context = new();
+            return _context.Users.ToList();
+        }
+
+        public void CreateUser(User user)
+        {
+            _context = new();
+            _context.Users.Add(user);
+            _context.SaveChanges();
+        }
+        public void DeleteUser(int userId)
+        {
+            _context = new();
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+            if (user != null)
+            {
+                _context.Users.Remove(user);
+                _context.SaveChanges();
+            }
         }
     }
 }

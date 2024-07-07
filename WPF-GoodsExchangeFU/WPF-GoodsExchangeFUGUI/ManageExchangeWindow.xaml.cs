@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Repositories.Entities;
+using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,22 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class ManageExchangeWindow : Window
     {
+        private ExchangeService _exchangeService = new();
         public ManageExchangeWindow()
         {
             InitializeComponent();
+            LoadExchange();
+        }
+
+        private void LoadExchange()
+        {
+            List<Exchange> exchanges = _exchangeService.GetAllExchange();
+            ExchangesDataGrid.ItemsSource = exchanges;
+        }
+
+        private void RefreshButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoadExchange();
         }
     }
 }

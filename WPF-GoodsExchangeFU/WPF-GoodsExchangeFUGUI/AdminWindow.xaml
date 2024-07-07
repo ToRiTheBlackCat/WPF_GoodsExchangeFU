@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="AdminWindow" Height="450" Width="800">
+        Title="AdminWindow" Height="700" Width="1020"
+        Background=" #FFD4F7D4"
+        FontFamily="Aria"
+        FontSize="16"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Button x:Name="ManageAccount" Content="Manage Account Window" HorizontalAlignment="Center" Margin="0,166,0,0" VerticalAlignment="Top" Height="128" Width="926" FontSize="35" Click="ManageAccount_Click"/>
+        <Button x:Name="ManageExchange" Content="Manage Exchange Window" HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" Height="128" Width="926" FontSize="35" Click="ManageExchange_Click" Background="Aqua"/>
+        <Button Content="Quit" HorizontalAlignment="Center" Margin="0,549,0,0" VerticalAlignment="Top" Height="69" Width="243" FontSize="20" Background="Red" Click="Quit_Button_Click"/>
+        <Label Content="ADMIN PAGE" HorizontalAlignment="Center" Height="87" Margin="0,31,0,0" VerticalAlignment="Top" Width="402" FontSize="60" FontWeight="Bold" FontFamily="Arial" Foreground="#FFFD6C06"/>
+
     </Grid>
 </Window>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,57 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class LoginWindow : Window
     {
+        private  UserService _userService = new();
         public LoginWindow()
         {
             InitializeComponent();
+        }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(EmailTextBox.Text) || string.IsNullOrWhiteSpace(PasswordBox.Password))
+            {
+                MessageBox.Show("Please enter both email and password.", "Incomplete Data", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            string email = EmailTextBox.Text;
+            string password = PasswordBox.Password;
+
+            var user = _userService.AuthenticateUser(email, password);
+
+            if (user != null)
+            {
+                MessageBox.Show($"Login successful! Welcome, {user.UserName}");
+                switch (user.RoleId)
+                {
+                    case 1:
+                        AdminWindow adminWindow = new AdminWindow();
+                        adminWindow.Show();
+                        this.Close();
+                        break;
+                    case 2:
+                        ModWindow modWindow = new ModWindow();
+                        modWindow.Show();
+                        this.Close();
+                        break;
+                    case 3:
+                        MainWindow mainWindow = new MainWindow();
+                        mainWindow.Show();
+                        this.Close();
+                        break;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Account not found", "Incorrect email or password", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult answer = MessageBox.Show("Do you want to logout and quit?", "Quit", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+                Application.Current.Shutdown();
         }
     }
 }

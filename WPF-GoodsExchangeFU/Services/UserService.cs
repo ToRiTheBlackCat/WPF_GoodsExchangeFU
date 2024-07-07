@@ -11,6 +11,7 @@ namespace Services
     public class UserService
     {
         private UserRepository _repo = new();
+
         public void BanUser(int userId)
         {
             var user = _repo.GetUser(userId);
@@ -23,6 +24,25 @@ namespace Services
             {
                 throw new Exception("User not found");
             }
+        }
+
+        public User? AuthenticateUser(string email, string password)
+        {
+            return _repo.GetUserByEmailandPassword(email, password);
+        }
+
+        public List<User> GetAllUSer()
+        {
+            return _repo.GetAllUsers();
+        }
+        public void CreateUser(User user)
+        {
+            _repo.CreateUser(user);
+        }
+
+        public void DeleteUser(int userId)
+        {
+            _repo.DeleteUser(userId);
         }
     }
 }

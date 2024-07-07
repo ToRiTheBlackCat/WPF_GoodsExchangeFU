@@ -54,7 +54,10 @@ namespace WPF_GoodsExchangeFUGUI
                         this.Close();
                         break;
                     case 3:
-                        MainWindow mainWindow = new MainWindow();
+                        MainWindow mainWindow = new MainWindow()
+                        {
+                            LoginedUser = user,
+                        };
                         mainWindow.Show();
                         this.Close();
                         break;

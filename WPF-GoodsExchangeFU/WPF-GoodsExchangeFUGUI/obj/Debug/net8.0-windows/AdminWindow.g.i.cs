@@ -69,7 +69,7 @@ namespace WPF_GoodsExchangeFUGUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WPF-GoodsExchangeFUGUI;component/adminwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WPF-GoodsExchangeFUGUI;V1.0.0.0;component/adminwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AdminWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

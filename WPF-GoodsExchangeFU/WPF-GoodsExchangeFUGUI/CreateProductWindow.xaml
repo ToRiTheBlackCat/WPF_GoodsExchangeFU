@@ -1,0 +1,45 @@
+﻿<Window x:Class="WPF_GoodsExchangeFUGUI.CreateProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
+        mc:Ignorable="d"
+        Title="CreateProductWindow" Height="700" Width="1020" Background="#FFD4F7D4" FontFamily="Arial" FontSize="16">
+    <Grid>
+        <Label Content="Create Product Window" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Arial" FontWeight="Bold" Width="626" Height="65"/>
+        <GroupBox x:Name="grbCategory" Header="Product Details" Margin="0,80,34,0" FontSize="16" FontWeight="Bold" Height="564" VerticalAlignment="Top" HorizontalAlignment="Right" Width="511">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                    <GradientStop Color="#FE2FB6B9" Offset="0"/>
+                    <GradientStop Color="#FE1CCA76"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid x:Name="grbCateSelect" Margin="10,0,8,0" Height="515" Loaded="grbCateSelect_Loaded">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Product Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="149"/>
+                <TextBox x:Name="txtPdctName" HorizontalAlignment="Left" Margin="164,10,0,0" VerticalAlignment="Top" Width="271" FontSize="16" Height="69" TextWrapping="Wrap"/>
+                <Label Content="Product Description" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctDesc" HorizontalAlignment="Left" Margin="164,84,0,0" VerticalAlignment="Top" Width="271" FontSize="16" Height="106" TextWrapping="Wrap"/>
+                <Label Content="Product Price" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctPrice" HorizontalAlignment="Left" Margin="164,195,0,0" VerticalAlignment="Top" Width="136" FontSize="16" Height="32"/>
+                <Label Content="Category" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="94,365,0,0" VerticalAlignment="Top" Height="48" Width="110" FontSize="16" Click="btnCreate_Click"/>
+                <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="288,365,0,0" VerticalAlignment="Top" Height="48" Width="110" FontSize="16" Click="btnExit_Click"/>
+                <Button x:Name="btnSelect" Content="Select Image" Margin="-354,425,660,5" Click="btnSelect_Click"/>
+                <ComboBox x:Name="cbxPdctCate" HorizontalAlignment="Center" Margin="0,232,0,0" VerticalAlignment="Top" Width="152" Height="32" FontSize="16"/>
+                <TextBox x:Name="txtImageUrl" HorizontalAlignment="Left" Margin="-354,381,0,0" VerticalAlignment="Top" Width="242" FontSize="16" Height="32" IsReadOnly="True"/>
+            </Grid>
+        </GroupBox>
+        <Grid Margin="40,92,0,0" Height="380" Width="380" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image x:Name="imgPdctPic" Margin="14,13,14,14"/>
+        </Grid>
+    </Grid>
+</Window>

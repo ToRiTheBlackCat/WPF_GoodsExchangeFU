@@ -44,5 +44,18 @@ namespace Services
         {
             _repo.DeleteUser(userId);
         }
+
+        public List<Exchange> GetAllExchange()
+        {
+            return _repo.GetAllExchange();
+        }
+
+        public User? GetUserByName(string userName)
+        {
+            var userList = _repo.GetUsers();
+            var user = userList.FirstOrDefault(u => u.UserName.Equals(userName));
+
+            return user;
+        }
     }
 }

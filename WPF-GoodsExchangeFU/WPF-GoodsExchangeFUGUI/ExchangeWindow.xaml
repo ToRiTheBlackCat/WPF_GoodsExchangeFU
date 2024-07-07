@@ -5,8 +5,90 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="ExchangeWindow" Height="450" Width="800">
+        Title="ExchangeWindow" Height="700" Width="1020
+        " WindowStartupLocation="CenterScreen" Background="#FFD4F7D4" FontFamily="Arial">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="613*"/>
+            <ColumnDefinition Width="407*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="grbCategory" Header="Your Product" Margin="0,51,17,0" FontWeight="Bold" Height="291" VerticalAlignment="Top" HorizontalAlignment="Right" Width="387" Grid.Column="1">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                    <GradientStop Color="#FE2FB6B9" Offset="0"/>
+                    <GradientStop Color="#FE1CCA76"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid x:Name="grdYourProduct" Margin="10,0,35,0" Height="263">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblYourPdctName" Content="Product Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="12" Height="27" Width="127"/>
+                <TextBox x:Name="txtPdctName" HorizontalAlignment="Left" Margin="142,10,0,0" VerticalAlignment="Top" Width="188" FontSize="12" Height="59" TextWrapping="Wrap" IsReadOnly="True"/>
+                <Label x:Name="lblYourPdctDesc" Content="Product Description" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" FontSize="12" Height="28" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctDesc" HorizontalAlignment="Left" Margin="142,73,0,0" VerticalAlignment="Top" Width="188" FontSize="12" Height="91" TextWrapping="Wrap" IsReadOnly="True"/>
+                <Label x:Name="lblYourPdctPrice" Content="Product Price" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" FontSize="12" Height="28" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctPrice" HorizontalAlignment="Left" Margin="142,168,0,0" VerticalAlignment="Top" Width="116" FontSize="12" Height="28" IsReadOnly="True"/>
+                <Label x:Name="lblYourPdctCate" Content="Category" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" FontSize="12" Height="27" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctCate" HorizontalAlignment="Left" Margin="143,200,0,0" VerticalAlignment="Top" Width="129" FontSize="12" Height="27" IsReadOnly="True"/>
+                <Label x:Name="lblYourName" Content="User" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" FontSize="12" Height="27" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctUser" HorizontalAlignment="Left" Margin="143,232,0,0" VerticalAlignment="Top" Width="129" FontSize="12" Height="27" IsReadOnly="True"/>
+                <Button x:Name="btnSelect" Content="Select Image" Margin="-288,464,594,-34"/>
+            </Grid>
+        </GroupBox>
+        <Grid x:Name="imgYourPdct" Margin="59,364,73,0" Height="275" Background="#FFD4C9C9" VerticalAlignment="Top" Grid.Column="1">
+            <Image x:Name="imgPdctPic" Margin="14,13,14,14"/>
+        </Grid>
+        <GroupBox x:Name="grbCategory_Copy" Header="Wanted Product" Margin="10,51,0,0" FontWeight="Bold" Height="291" VerticalAlignment="Top" HorizontalAlignment="Left" Width="387">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                    <GradientStop Color="#FE2FB6B9" Offset="0"/>
+                    <GradientStop Color="#FE1CCA76"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid x:Name="grdWantedProduct" Margin="10,0,35,0" Height="263" Loaded="grdWantedProduct_Loaded">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Product Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="12" Height="27" Width="127"/>
+                <TextBox x:Name="txtWantedName" HorizontalAlignment="Left" Margin="142,10,0,0" VerticalAlignment="Top" Width="188" FontSize="12" Height="59" TextWrapping="Wrap" IsReadOnly="True"/>
+                <Label Content="Product Description" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" FontSize="12" Height="28" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtWantedDesc" HorizontalAlignment="Left" Margin="142,73,0,0" VerticalAlignment="Top" Width="188" FontSize="12" Height="91" TextWrapping="Wrap" IsReadOnly="True"/>
+                <Label Content="Product Price" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" FontSize="12" Height="28" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtWantedPrice" HorizontalAlignment="Left" Margin="142,168,0,0" VerticalAlignment="Top" Width="116" FontSize="12" Height="28" IsReadOnly="True"/>
+                <Label Content="Category" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" FontSize="12" Height="27" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtWantedCate" HorizontalAlignment="Left" Margin="143,200,0,0" VerticalAlignment="Top" Width="129" FontSize="12" Height="27" IsReadOnly="True"/>
+                <Label Content="User" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" FontSize="12" Height="27" Width="127" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtWantedUser" HorizontalAlignment="Left" Margin="143,232,0,0" VerticalAlignment="Top" Width="129" FontSize="12" Height="27" IsReadOnly="True"/>
+                <Button x:Name="btnSelect1" Content="Select Image" Margin="-288,464,594,-34"/>
+            </Grid>
+        </GroupBox>
+        <Grid Margin="66,364,0,0" Height="275" Width="275" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image x:Name="imgWantedPdct" Margin="14,13,14,14"/>
+        </Grid>
+        <Label Content="Exchange Window" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22"/>
+        <Button x:Name="btnExchange" Content="Exchange" HorizontalAlignment="Left" Margin="433,501,0,0" VerticalAlignment="Top" Height="65" Width="154" FontWeight="Bold" FontSize="28" Click="btnExchange_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="433,575,0,0" VerticalAlignment="Top" Height="64" Width="154" FontWeight="Bold" FontSize="28" Click="btnCancel_Click"/>
+        <Grid x:Name="grdBalanceSelect" Margin="416,359,0,0" Background="#FFE0E0E0" Height="137" VerticalAlignment="Top" HorizontalAlignment="Left" Width="188">
+            <TextBox x:Name="txtBalance" HorizontalAlignment="Center" VerticalAlignment="Top" Width="128" FontSize="12" Height="22" Text="10000000" Margin="0,59,0,0" MaxLines="2"/>
+            <RadioButton Content="You pay" HorizontalAlignment="Left" Margin="58,94,0,0" VerticalAlignment="Top" IsChecked="True" GroupName="payRadioGroup" Click="RadioButton_Click"/>
+            <RadioButton Content="Seller pay" HorizontalAlignment="Center" Margin="0,113,0,0" VerticalAlignment="Top" GroupName="payRadioGroup" IsChecked="False" Click="RadioButton_Click"/>
+            <Label Content="Money Payment" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18"/>
+            <Label Content="đ&#xD;&#xA;" HorizontalAlignment="Left" Margin="158,59,0,0" VerticalAlignment="Top" Height="22" Width="20"/>
+        </Grid>
+        <DataGrid x:Name="dgvYourProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="408,10,10,0" Height="241" VerticalAlignment="Top" Loaded="DataGrid_Loaded" IsReadOnly="True" SelectionChanged="dgvYourProducts_SelectionChanged"/>
+        <Label x:Name="lblNoProduct" Content="&lt;You don't have any product.&gt;" HorizontalAlignment="Left" Margin="420,256,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCreate" Content="Create&#xD;&#xA;Product" HorizontalAlignment="Left" Margin="448,280,0,0" VerticalAlignment="Top" Height="48" Width="115" FontWeight="Bold" FontSize="16" Click="btnCreate_Click"/>
+
     </Grid>
 </Window>

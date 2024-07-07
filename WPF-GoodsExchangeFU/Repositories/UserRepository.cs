@@ -53,5 +53,11 @@ namespace Repositories
             _context= new();
             return _context.Exchanges.ToList();
         }
+
+        public List<User> GetUsers()
+        {
+            _context = new GoodsExchangeFudbContext();
+            return _context.Users.ToList();
+        }
     }
 }

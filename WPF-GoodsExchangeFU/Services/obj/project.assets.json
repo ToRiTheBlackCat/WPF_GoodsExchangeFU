@@ -3133,23 +3133,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Senti\\.nuget\\packages\\": {},
+    "D:\\Programs(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\obj\\",
+      "projectPath": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\Senti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Programs(x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Senti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3165,8 +3165,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj"
+            "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj"
             }
           }
         }

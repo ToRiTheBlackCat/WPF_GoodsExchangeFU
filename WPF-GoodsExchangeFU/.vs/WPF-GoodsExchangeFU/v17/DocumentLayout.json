@@ -1,30 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\",
+  "WorkspaceRootPath": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\admin\\desktop\\prn212\\project\\prn-project\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\manageexchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\manageexchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\loginwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\loginwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn212\\project\\prn-project\\wpf-goodsexchangefu\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn212\\project\\prn-project\\wpf-goodsexchangefu\\repositories\\entities\\exchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\exchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\senti\\downloads\\portablegit-2.45.0-64-bit.7z\\exchangewpf\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\createproductwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\createproductwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\admin\\desktop\\prn212\\project\\prn-project\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\manageexchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\manageexchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\repositories\\goodsexchangefudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\goodsexchangefudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\exchangewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\exchangewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn212\\project\\prn-project\\wpf-goodsexchangefu\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\exchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\exchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\manageexchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\manageexchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\repositories\\entities\\exchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\exchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\manageexchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\manageexchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,16 +94,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 13,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -77,81 +129,272 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReportRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\ReportRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ReportRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\ReportRepository.cs",
-              "RelativeToolTip": "Repositories\\ReportRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T03:58:03.806Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAIA8wDAAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:09:37.127Z",
+              "WhenOpened": "2024-07-07T07:59:25.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAArwDQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T03:19:32.54Z",
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T07:59:21.277Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\App.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\App.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\App.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T07:56:31.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\appsettings.json",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\appsettings.json",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-07T07:55:26.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GoodsExchangeFudbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\GoodsExchangeFudbContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\GoodsExchangeFudbContext.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\GoodsExchangeFudbContext.cs",
+              "RelativeToolTip": "Repositories\\GoodsExchangeFudbContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:55:22.4Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Exchange.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\Entities\\Exchange.cs",
-              "RelativeDocumentMoniker": "Repositories\\Entities\\Exchange.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\Repositories\\Entities\\Exchange.cs",
-              "RelativeToolTip": "Repositories\\Entities\\Exchange.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CreateProductWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAvwGcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:05:03.996Z",
+              "WhenOpened": "2024-07-07T07:47:39.128Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExchangeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAADwv5UAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:46:12.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExchangeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T07:46:09.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DetailWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T07:43:02.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetailWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAADwv5sAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:42:53.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAQwDAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:38:43.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAMwAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:38:41.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAQwJEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T07:37:40.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T07:37:38.525Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ManageExchangeWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAnwB0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:07:53.24Z",
-              "EditorCaption": ""
+              "Title": "CreateProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-07T07:37:28.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReportRepository.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\ReportRepository.cs",
+              "RelativeToolTip": "Repositories\\ReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T03:58:03.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAnwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:09:37.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA7wDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T03:19:32.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Exchange.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\Entities\\Exchange.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\Exchange.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\Repositories\\Entities\\Exchange.cs",
+              "RelativeToolTip": "Repositories\\Entities\\Exchange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T04:05:03.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ManageExchangeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAnwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T04:07:53.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ManageExchangeWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN212\\Project\\PRN-Project\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
+              "ToolTip": "C:\\Users\\Senti\\Downloads\\PortableGit-2.45.0-64-bit.7z\\ExchangeWPF\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-05T04:06:35.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T04:06:35.37Z"
             }
           ]
         }

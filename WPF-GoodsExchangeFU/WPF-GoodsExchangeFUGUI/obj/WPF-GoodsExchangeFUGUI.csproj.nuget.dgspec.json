@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj": {}
+    "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj": {
+    "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\obj\\",
+        "projectPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\KuroZabulus\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KuroZabulus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,21 +94,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj": {
+    "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\obj\\",
+        "projectPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\KuroZabulus\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KuroZabulus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,8 +126,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj"
+              "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -154,21 +162,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj": {
+    "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
+        "projectUniqueName": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
         "projectName": "WPF-GoodsExchangeFUGUI",
-        "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\obj\\",
+        "projectPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj",
+        "packagesPath": "C:\\Users\\KuroZabulus\\.nuget\\packages\\",
+        "outputPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KuroZabulus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -182,8 +194,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj"
+              "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj": {
+                "projectPath": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\Services.csproj"
               }
             }
           }
@@ -221,7 +233,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

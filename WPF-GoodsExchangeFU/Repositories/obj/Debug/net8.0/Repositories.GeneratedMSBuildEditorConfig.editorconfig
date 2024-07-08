@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repositories
-build_property.ProjectDir = C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\
+build_property.ProjectDir = D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

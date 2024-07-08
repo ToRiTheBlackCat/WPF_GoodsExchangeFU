@@ -57,6 +57,10 @@ namespace Repositories
             return _context.Exchanges.ToList();
         }
 
+        public User? GetUsersByName(string text)
+        {
+            return _context.Users.FirstOrDefault(u => u.UserName.Equals(text));
+        }
         public List<User> GetUsers()
         {
             _context = new GoodsExchangeFudbContext();

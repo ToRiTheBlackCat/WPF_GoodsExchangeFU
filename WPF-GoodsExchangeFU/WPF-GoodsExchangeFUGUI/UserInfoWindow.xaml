@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="UserInfoWindow" Height="450" Width="800">
+        Title="UserInfoWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-        
+        <Rectangle Margin="10,254,10,100" Stroke="Black"/>
+        <TextBox x:Name="searchUser" HorizontalAlignment="Center" Height="34" Margin="0,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="601" FontFamily="Arial" FontSize="16"/>
+        <Button x:Name="btnSearch" Content="Search!" HorizontalAlignment="Left" Margin="449,195,0,0" VerticalAlignment="Top" Height="34" Width="98" FontWeight="Bold" FontFamily="Arial" FontSize="16" Click="btnSearch_Click"/>
+        <Label Content="Search User:" HorizontalAlignment="Left" Margin="449,107,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="View User Info" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="48" FontWeight="Bold" Foreground="#FFFD6C06"/>
+        <Button Content="Go Back" HorizontalAlignment="Center" Margin="0,615,0,0" VerticalAlignment="Top" Height="35" Width="98" FontSize="16" FontFamily="Arial" FontWeight="Bold"/>
+        <DataGrid x:Name="dgrUser" Margin="10,254,10,100" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn FontSize="16" Header="User Name" IsReadOnly="True" Binding="{Binding userName}"/>
+                <DataGridTextColumn FontSize="16" Header="Email" IsReadOnly="True" Binding="{Binding email}"/>
+                <DataGridTextColumn FontSize="16" Header="Phone" IsReadOnly="True" Binding="{Binding phone}"/>
+                <DataGridTextColumn FontSize="16" Header="Gender" IsReadOnly="True" Binding="{Binding gender}"/>
+                <DataGridTextColumn FontSize="16" Header="Birthdate" IsReadOnly="True" Binding="{Binding DOB}"/>
+                <DataGridTextColumn FontSize="16" Header="Address" IsReadOnly="True" Binding="{Binding address}"/>
+                <DataGridTextColumn FontSize="16" Header="Status" IsReadOnly="True" Binding="{Binding isBanned}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
     </Grid>
 </Window>

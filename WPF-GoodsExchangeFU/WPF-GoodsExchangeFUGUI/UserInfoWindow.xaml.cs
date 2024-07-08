@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Repositories.Entities;
+using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,16 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class UserInfoWindow : Window
     {
+        private UserService _service = new();
         public UserInfoWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            List<User> user = _service.GetUserByName(searchUser.Text);
+            dgrUser.ItemsSource = user;
         }
     }
 }

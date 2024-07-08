@@ -49,13 +49,9 @@ namespace Services
         {
             return _repo.GetAllExchange();
         }
-
         public User? GetUserByName(string userName)
         {
-            var userList = _repo.GetUsers();
-            var user = userList.FirstOrDefault(u => u.UserName.Equals(userName));
-
-            return user;
+            return _repo.GetUsersByName(userName);
         }
     }
 }

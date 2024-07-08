@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="OwnInfoWindow" Height="450" Width="800">
+        Title="OwnInfoWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
         
     </Grid>

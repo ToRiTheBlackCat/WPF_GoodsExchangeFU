@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPF_GoodsExchangeFUGUI.RatingsAndCommentsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rating And Comment Window" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Rate the Exchange" />
+            <Slider x:Name="RatingSlider" Minimum="1" Maximum="5" TickFrequency="1" />
+            <TextBlock Text="Comment" />
+            <TextBox x:Name="CommentTextBox" Height="100" Width="300" />
+            <Button Content="Submit" Click="SubmitButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

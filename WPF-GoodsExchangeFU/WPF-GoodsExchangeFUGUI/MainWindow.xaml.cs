@@ -162,7 +162,7 @@ namespace WPF_GoodsExchangeFUGUI
                            MessageBoxButton.OK, MessageBoxImage.Exclamation);
                     return;
                 }
-
+                
                 var selectedProduct = dgvProducts.SelectedItems[0];
                 // Direct to ProductDetail Window
                 DetailWindow window = new DetailWindow()
@@ -186,6 +186,12 @@ namespace WPF_GoodsExchangeFUGUI
                        MessageBoxButton.OK, MessageBoxImage.Exclamation);
                 return;
             }
+            if (LoginedUser.RoleId != 3)
+            {
+                MessageBox.Show("You have no permission to do this action", "Authoriztion", MessageBoxButton.OK, MessageBoxImage.Error);
+                AccountExpander.IsExpanded = false;
+                return;
+            }
 
             CreateProductWindow createProductWindow = new CreateProductWindow()
             {
@@ -203,10 +209,6 @@ namespace WPF_GoodsExchangeFUGUI
             FillDataGrid();
         }
 
-        private void btnCreate_Copy_Click(object sender, RoutedEventArgs e)
-        {
-            System.Windows.Application.Current.Shutdown();
-        }
 
         private void MyProfileButton_Click(object sender, RoutedEventArgs e)
         {
@@ -225,6 +227,21 @@ namespace WPF_GoodsExchangeFUGUI
         private void MyExchangeButton_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void AccountExpander_Expanded(object sender, RoutedEventArgs e)
+        {
+            if(LoginedUser.RoleId != 3)
+            {
+                MessageBox.Show("You have no permission to do this action", "Authoriztion", MessageBoxButton.OK, MessageBoxImage.Error);
+                AccountExpander.IsExpanded = false;
+            }
+            
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

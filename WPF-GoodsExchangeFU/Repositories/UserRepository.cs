@@ -69,8 +69,20 @@ namespace Repositories
         }
         public List<User> GetUsers()
         {
-            _context = new GoodsExchangeFudbContext();
+            _context = new ();
             return _context.Users.ToList();
+        }
+        public List<decimal>? GetAllScoresOfUser(User user)
+        {
+            _context = new();
+            return _context.Ratings.Where(r => r.UserId == user.UserId).Select(r => r.Score).ToList();
+        }
+        public List<Rating>? GetAllRating(User user)
+        {
+            _context = new();
+            return _context.Ratings.Include(r => r.Exchange)
+                                        .ThenInclude(e => e.User)
+                                    .Where(r => r.UserId == user.UserId).ToList();
         }
     }
 }

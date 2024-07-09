@@ -65,8 +65,8 @@
             </Grid>
         </GroupBox>
         <Button x:Name="btnCreate" Content="CREATE" HorizontalAlignment="Left" Margin="75,417,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnCreate_Click"/>
-        <Button x:Name="btnCreate_Copy" Content="EXIT" HorizontalAlignment="Left" Margin="75,549,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnCreate_Copy_Click"/>
-        <Expander x:Name="AccountExpander" HorizontalAlignment="Left" Height="195" Header="{Binding LoginedUser.UserName, FallbackValue='Account'}" Margin="491,22,0,0" VerticalAlignment="Top" Width="203" FontSize="18">
+        <Button x:Name="btnExit" Content="EXIT" HorizontalAlignment="Left" Margin="75,549,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnExit_Click"/>
+        <Expander x:Name="AccountExpander" HorizontalAlignment="Left" Height="195" Header="{Binding LoginedUser.UserName, FallbackValue='Account'}" Margin="491,22,0,0" VerticalAlignment="Top" Width="203" FontSize="18" Expanded="AccountExpander_Expanded">
             <Grid Background="#FF91EFF1" Height="170">
                 <StackPanel Height="170">
                     <Button x:Name="MyProfileButton" Content="My Profile" Margin="0 8"  Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyProfileButton_Click"/>

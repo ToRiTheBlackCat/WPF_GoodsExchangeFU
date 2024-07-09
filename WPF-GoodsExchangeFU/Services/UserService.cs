@@ -58,5 +58,14 @@ namespace Services
         {
             return _repo.UpdateUser(user);
         }
+        public double GetAveScore(User user)
+        {
+            var listScore = _repo.GetAllScoresOfUser(user);
+            return  (listScore != null && listScore.Any()) ?(double)listScore.Average() : 0;
+        }
+        public List<Rating> GetRatingsOfUser(User user)
+        {
+            return _repo.GetAllRating(user);
+        }
     }
 }

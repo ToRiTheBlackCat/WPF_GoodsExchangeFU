@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.VisualBasic.ApplicationServices;
 using Repositories.Entities;
 using Services;
 using System;
@@ -14,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using User = Repositories.Entities.User;
 
 namespace WPF_GoodsExchangeFUGUI
 {
@@ -48,6 +50,8 @@ namespace WPF_GoodsExchangeFUGUI
             else { txtGender.Text = "Female"; }
             BirthdateDatePicker.SelectedDate = selecteddUser.Dob.Value.ToDateTime(TimeOnly.MinValue);
             txtAddress.Text = selecteddUser.Address;
+            tbkAveScore.Text = _service.GetAveScore(selecteddUser).ToString() + "/5";
+            RatingDataGrid.ItemsSource = _service.GetRatingsOfUser(selecteddUser);
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)

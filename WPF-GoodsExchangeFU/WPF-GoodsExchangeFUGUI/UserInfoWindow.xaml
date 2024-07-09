@@ -16,22 +16,34 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Rectangle Margin="208,147,11,160" Stroke="Black"/>
-        <Label Content="View User Info" HorizontalAlignment="Left" Margin="445,42,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="48" FontWeight="Bold" Foreground="#FFFD6C06"/>
+        <Rectangle Margin="212,83,7,224" Stroke="Black"/>
+        <Label Content="View User Info" HorizontalAlignment="Left" Margin="445,2,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="48" FontWeight="Bold" Foreground="#FFFD6C06"/>
         <Button x:Name="BackButton" Content="Go Back" HorizontalAlignment="Left" Margin="50,613,0,0" VerticalAlignment="Top" Height="35" Width="98" FontSize="16" FontFamily="Arial" FontWeight="Bold" Click="BackButton_Click"/>
-        <Label Content="User Name:" HorizontalAlignment="Left" Margin="228,188,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Email:" HorizontalAlignment="Left" Margin="228,234,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Phone Number:" HorizontalAlignment="Left" Margin="228,282,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Gender:" HorizontalAlignment="Left" Margin="228,0,0,0" VerticalAlignment="Center" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Birthdate:" HorizontalAlignment="Left" Margin="228,374,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Address:" HorizontalAlignment="Left" Margin="228,422,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="User Info" HorizontalAlignment="Left" Margin="238,130,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFD4F7D4" FontWeight="Bold"/>
-        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Margin="364,190,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
-        <TextBlock x:Name="txtEmail" HorizontalAlignment="Left" Margin="364,238,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
-        <TextBlock x:Name="txtPhone" HorizontalAlignment="Left" Margin="364,284,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
-        <TextBlock x:Name="txtGender" HorizontalAlignment="Left" Margin="364,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
-        <TextBlock x:Name="txtAddress" HorizontalAlignment="Left" Margin="364,424,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
-        <DatePicker x:Name="BirthdateDatePicker" IsEnabled="false" HorizontalAlignment="Left" Height="28" Margin="364,374,0,0" VerticalAlignment="Top" Width="199"/>
+        <Label Content="User Name:" HorizontalAlignment="Left" Margin="232,124,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="232,170,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Phone Number:" HorizontalAlignment="Left" Margin="232,218,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Gender:" HorizontalAlignment="Left" Margin="232,264,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Birthdate:" HorizontalAlignment="Left" Margin="232,310,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="232,358,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="User Info" HorizontalAlignment="Left" Margin="242,66,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFD4F7D4" FontWeight="Bold"/>
+        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Margin="368,126,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtEmail" HorizontalAlignment="Left" Margin="368,174,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtPhone" HorizontalAlignment="Left" Margin="368,220,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtGender" HorizontalAlignment="Left" Margin="368,267,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtAddress" HorizontalAlignment="Left" Margin="368,360,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="550" FontFamily="Arial" FontSize="16"/>
+        <DatePicker x:Name="BirthdateDatePicker" IsEnabled="false" HorizontalAlignment="Left" Height="28" Margin="368,310,0,0" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="tbkAveScore" HorizontalAlignment="Left" Margin="368,403,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="304" FontFamily="Arial" FontSize="16"/>
+        <Label x:Name="txtAveScore" Content="Average Score:" HorizontalAlignment="Left" Margin="230,398,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Rectangle Margin="212,487,7,10" Stroke="Black"/>
+        <Label Content="Rating | Comment List" HorizontalAlignment="Left" Margin="236,465,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFD4F7D4" FontWeight="Bold"/>
+        <DataGrid x:Name="RatingDataGrid" HorizontalAlignment="Left" Height="145" Margin="232,503,0,0" VerticalAlignment="Top" Width="758" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Rater Name" Width="150" Binding="{Binding Exchange.User.UserName}" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Score" Width="100" Binding="{Binding Score}" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Comment" Width="*" Binding="{Binding Comment}" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Rate Date" Width="150" Binding="{Binding RatingDate, StringFormat={}{0:yyyy-MM-dd}}" ></DataGridTextColumn>
+            </DataGrid.Columns>
+         </DataGrid>
 
     </Grid>
 </Window>

@@ -51,6 +51,7 @@ namespace WPF_GoodsExchangeFUGUI
             txtAddress.Text = user.Address;
             if (user.IsBanned) { status = "Your account is banned!"; }
             else { status = "Your account is good!"; }
+            tbkAveScore.Text = _service.GetAveScore(user).ToString()+"/5";
             txtStatus.Text = status;
         }
 

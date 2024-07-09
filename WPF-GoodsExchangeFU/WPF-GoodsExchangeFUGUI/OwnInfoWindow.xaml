@@ -25,13 +25,13 @@
         <Label Content="Gender:" HorizontalAlignment="Left" Margin="229,361,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
         <Label Content="Birthdate:" HorizontalAlignment="Left" Margin="229,407,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
         <Label Content="Address:" HorizontalAlignment="Left" Margin="229,454,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="Status:" HorizontalAlignment="Left" Margin="229,501,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="229,537,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
         <Label Content="User Info" HorizontalAlignment="Left" Margin="239,120,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFD4F7D4" FontWeight="Bold"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="365,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="22" Width="250" FontFamily="Arial" FontSize="16"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="365,224,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="435" FontFamily="Arial" FontSize="16" IsReadOnly="True"/>
-        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="365,316,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="250" FontFamily="Arial" FontSize="16"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="365,181,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="22" Width="303" FontFamily="Arial" FontSize="16"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="365,224,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="303" FontFamily="Arial" FontSize="16" IsReadOnly="True"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="365,316,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="303" FontFamily="Arial" FontSize="16"/>
         <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="365,456,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="303" FontFamily="Arial" FontSize="16"/>
-        <TextBlock x:Name="txtStatus" HorizontalAlignment="Left" Margin="365,503,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="303" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtStatus" HorizontalAlignment="Left" Margin="365,542,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="303" FontFamily="Arial" FontSize="16"/>
         <DatePicker x:Name="dateBirthday" HorizontalAlignment="Left" Margin="365,407,0,0" VerticalAlignment="Top" Height="27" Width="190"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="229,267,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
         <PasswordBox HorizontalAlignment="Left" Margin="365,269,0,0" VerticalAlignment="Top" Width="249" Height="25"/>
@@ -41,6 +41,8 @@
         <Button x:Name="btnUpdate" Content="Save Changes" HorizontalAlignment="Left" Margin="522,597,0,0" VerticalAlignment="Top" Height="47" Width="122" FontSize="16" FontWeight="Bold" FontFamily="Arial" Click="btnUpdate_Click" Background="#FFF97C33" Foreground="#FFFFF7F7"/>
         <RadioButton x:Name="btnMale" GroupName="Gender" Content="Male" HorizontalAlignment="Left" Margin="365,368,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Arial"/>
         <RadioButton x:Name="btnFemale" GroupName="Gender" Content="Female" HorizontalAlignment="Left" Margin="498,368,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16"/>
+        <Label x:Name="txtAveScore" Content="Average Score:" HorizontalAlignment="Left" Margin="229,499,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <TextBlock x:Name="tbkAveScore" HorizontalAlignment="Left" Margin="365,504,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="25" Width="303" FontFamily="Arial" FontSize="16"/>
 
 
     </Grid>

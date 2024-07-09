@@ -1,4 +1,5 @@
-﻿using Services;
+﻿using Repositories.Entities;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,8 @@ namespace WPF_GoodsExchangeFUGUI
             PasswordBox.Password = "12345@";
         }
 
+        public User LoginUser { get; private set; }
+
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(EmailTextBox.Text) || string.IsNullOrWhiteSpace(PasswordBox.Password))
@@ -52,7 +55,10 @@ namespace WPF_GoodsExchangeFUGUI
                         this.Close();
                         break;
                     case 2:
-                        ModWindow modWindow = new ModWindow();
+                        ModWindow modWindow = new ModWindow()
+                        {
+                            LoginedUser = user,
+                        };
                         modWindow.Show();
                         this.Close();
                         break;

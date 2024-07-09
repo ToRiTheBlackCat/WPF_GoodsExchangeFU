@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="OwnProductWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-        
+        <DataGrid x:Name="dgrProducts" Margin="10,170,10,105" Loaded="dgrProducts_Loaded" IsReadOnly="True" FontSize="16" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding productName}" Header="Product Name"/>
+                <DataGridTextColumn Binding="{Binding productImage}" Header="Product Image"/>
+                <DataGridTextColumn Binding="{Binding productDescription}" Header="Product Description"/>
+                <DataGridTextColumn Binding="{Binding productPrice}" Header="Product Price"/>
+                <DataGridTextColumn Binding="{Binding Type.typeName}" Header="Product Type"/>
+                <DataGridTextColumn Binding="{Binding status}" Header="Status"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Your Products" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="36" FontWeight="Bold" Foreground="#FFFD6C06"/>
+        <Button x:Name="btnReturn" Content="Return" HorizontalAlignment="Center" Margin="0,610,0,0" VerticalAlignment="Top" Height="32" Width="96" FontFamily="Arial" FontSize="18" FontWeight="Bold" Click="btnReturn_Click"/>
+        <TextBox x:Name="searchProduct" HorizontalAlignment="Left" Height="34" Margin="267,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontFamily="Arial" FontSize="16"/>
+        <Button x:Name="btnSearch" Content="Search!" HorizontalAlignment="Left" Margin="798,100,0,0" VerticalAlignment="Top" Height="34" Width="98" FontWeight="Bold" FontFamily="Arial" FontSize="16" Click="btnSearch_Click"/>
+        <Label Content="Search Product:" HorizontalAlignment="Left" Margin="109,103,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
     </Grid>
 </Window>

@@ -11,11 +11,16 @@ namespace Repositories
     public class UserRepository
     {
         GoodsExchangeFudbContext _context;
-        public void UpdateUser(User user)
+        public bool UpdateUser(User user)
         {
-            _context = new();
-            _context.Users.Update(user);
-            _context.SaveChanges();
+            try
+            {
+                _context = new();
+                _context.Users.Update(user);
+                _context.SaveChanges();
+                return true;
+            }
+            catch (Exception ex) { return false; }
         }
         public User GetUser(int userId)
         {

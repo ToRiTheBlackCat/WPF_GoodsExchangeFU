@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.deps.json
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.pdb
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Repositories.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Repositories.pdb
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.sourcelink.json
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.csproj.Up2Date
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\refint\Services.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.pdb
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\ref\Services.dll
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.deps.json
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.dll
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.pdb
@@ -32,26 +14,3 @@ D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\refint\Services.dll
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.pdb
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\ref\Services.dll
-=======
-=======
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.deps.json
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.dll
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Services.pdb
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Repositories.dll
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\bin\Debug\net8.0\Repositories.pdb
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.sourcelink.json
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.csproj.Up2Date
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.dll
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\refint\Services.dll
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\Services.pdb
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Services\obj\Debug\net8.0\ref\Services.dll
-<<<<<<< HEAD
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
-=======
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f

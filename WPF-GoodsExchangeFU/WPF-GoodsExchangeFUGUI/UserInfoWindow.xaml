@@ -5,25 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="UserInfoWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="UserInfoWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded">
     <Grid>
-        <Rectangle Margin="10,254,10,100" Stroke="Black"/>
-        <TextBox x:Name="searchUser" HorizontalAlignment="Center" Height="34" Margin="0,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="601" FontFamily="Arial" FontSize="16"/>
-        <Button x:Name="btnSearch" Content="Search!" HorizontalAlignment="Left" Margin="449,195,0,0" VerticalAlignment="Top" Height="34" Width="98" FontWeight="Bold" FontFamily="Arial" FontSize="16" Click="btnSearch_Click"/>
-        <Label Content="Search User:" HorizontalAlignment="Left" Margin="449,107,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
-        <Label Content="View User Info" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="48" FontWeight="Bold" Foreground="#FFFD6C06"/>
-        <Button Content="Go Back" HorizontalAlignment="Center" Margin="0,615,0,0" VerticalAlignment="Top" Height="35" Width="98" FontSize="16" FontFamily="Arial" FontWeight="Bold"/>
-        <DataGrid x:Name="dgrUser" Margin="10,254,10,100" AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn FontSize="16" Header="User Name" IsReadOnly="True" Binding="{Binding userName}"/>
-                <DataGridTextColumn FontSize="16" Header="Email" IsReadOnly="True" Binding="{Binding email}"/>
-                <DataGridTextColumn FontSize="16" Header="Phone" IsReadOnly="True" Binding="{Binding phone}"/>
-                <DataGridTextColumn FontSize="16" Header="Gender" IsReadOnly="True" Binding="{Binding gender}"/>
-                <DataGridTextColumn FontSize="16" Header="Birthdate" IsReadOnly="True" Binding="{Binding DOB}"/>
-                <DataGridTextColumn FontSize="16" Header="Address" IsReadOnly="True" Binding="{Binding address}"/>
-                <DataGridTextColumn FontSize="16" Header="Status" IsReadOnly="True" Binding="{Binding isBanned}"/>
-            </DataGrid.Columns>
-        </DataGrid>
+        <Rectangle HorizontalAlignment="Left" Height="684" Stroke="Black" VerticalAlignment="Center" Width="201">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FE1CCA76"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+
+        <Rectangle Margin="210,217,10,90" Stroke="Black"/>
+        <TextBox x:Name="searchUser" HorizontalAlignment="Left" Height="34" Margin="365,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontFamily="Arial" FontSize="16"/>
+        <Button x:Name="btnSearch" Content="Search!" HorizontalAlignment="Left" Margin="896,153,0,0" VerticalAlignment="Top" Height="34" Width="98" FontWeight="Bold" FontFamily="Arial" FontSize="16" Click="btnSearch_Click"/>
+        <Label Content="Search User:" HorizontalAlignment="Left" Margin="229,156,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="View User Info" HorizontalAlignment="Left" Margin="445,42,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="48" FontWeight="Bold" Foreground="#FFFD6C06"/>
+        <Button Content="Go Back" HorizontalAlignment="Left" Margin="50,613,0,0" VerticalAlignment="Top" Height="35" Width="98" FontSize="16" FontFamily="Arial" FontWeight="Bold"/>
+        <Label Content="User Name:" HorizontalAlignment="Left" Margin="229,258,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="229,305,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Phone Number:" HorizontalAlignment="Left" Margin="229,352,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Gender:" HorizontalAlignment="Left" Margin="229,399,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Birthdate:" HorizontalAlignment="Left" Margin="229,445,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Address:" HorizontalAlignment="Left" Margin="229,492,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="229,539,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" FontWeight="Bold"/>
+        <Label Content="User Info" HorizontalAlignment="Left" Margin="239,200,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="24" Background="#FFD4F7D4" FontWeight="Bold"/>
+        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Margin="365,261,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtEmail" HorizontalAlignment="Left" Margin="365,308,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtPhone" HorizontalAlignment="Left" Margin="365,355,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtGender" HorizontalAlignment="Left" Margin="365,402,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtBirthday" HorizontalAlignment="Left" Margin="365,448,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtAddress" HorizontalAlignment="Left" Margin="365,495,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
+        <TextBlock x:Name="txtStatus" HorizontalAlignment="Left" Margin="365,542,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="22" Width="121" FontFamily="Arial" FontSize="16"/>
 
     </Grid>
 </Window>

@@ -25,12 +25,41 @@ namespace WPF_GoodsExchangeFUGUI
         public UserInfoWindow()
         {
             InitializeComponent();
+            Loaded += Window_Loaded;
         }
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
-            List<User> user = _service.GetUserByName(searchUser.Text);
-            dgrUser.ItemsSource = user;
+            string gender, status;
+            try
+            {
+                User user = _service.GetUserByName(searchUser.Text);
+                if (user != null)
+                {
+                    txtName.Text = user.UserName;
+                    txtEmail.Text = user.Email;
+                    txtPhone.Text = user.Phone;
+                    if (user.Gender) { gender = "Male"; }
+                    else { gender = "Female"; }
+                    txtGender.Text = gender;
+                    txtBirthday.Text = user.Dob.ToString();
+                    txtAddress.Text = user.Address;
+                    if (user.IsBanned) { status = "This user is banned!"; }
+                    else { status = "This user is good!"; }
+                    txtStatus.Text = status;
+                }
+            } catch (Exception ex) { }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            txtName.Text = null;
+            txtEmail.Text = null;
+            txtPhone.Text = null;
+            txtGender.Text = null;
+            txtBirthday.Text = null;
+            txtAddress.Text = null;
+            txtStatus.Text = null;
         }
     }
 }

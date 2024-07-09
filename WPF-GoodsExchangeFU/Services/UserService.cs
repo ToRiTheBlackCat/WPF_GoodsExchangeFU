@@ -53,5 +53,10 @@ namespace Services
         {
             return _repo.GetUsersByName(userName);
         }
+
+        public bool UpdateUser(User user)
+        {
+            return _repo.UpdateUser(user);
+        }
     }
 }

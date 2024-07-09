@@ -124,5 +124,10 @@ namespace Services
         {
             return _repo.GetProductTypes();
         }
+
+        public List<Product>? GetProductsByName(string text)
+        {
+            return _repo.GetProductsByName(text);
+        }
     }
 }

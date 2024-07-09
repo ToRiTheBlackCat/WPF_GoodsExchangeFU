@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="DetailProductWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-        
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="52" Margin="102,169,0,0" VerticalAlignment="Top" Width="816"/>
+        <DataGrid x:Name="dgrProductInfo" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionMode="Single" Margin="315,259,45,45" Loaded="dgrProductInfo_Loaded" FontSize="16"/>
+        <TextBox x:Name="inpSearchType" TextWrapping="Wrap" Margin="313,180,326,474" FontSize="24"/>
+        <Label Content="Search for Product Name" HorizontalAlignment="Left" Margin="116,182,0,0" VerticalAlignment="Top" Height="25" Width="192" FontSize="16" FontFamily="Arial"/>
+        <Button x:Name="btnUpdate" Content="Update a Product" HorizontalAlignment="Left" Margin="65,318,0,0" VerticalAlignment="Top" Width="185" Height="36" FontSize="16" Click="btnUpdate_Click" FontFamily="Arial"/>
+        <Button x:Name="btnDelete" Content="Delete a Product" HorizontalAlignment="Left" Margin="65,413,0,0" VerticalAlignment="Top" Width="185" Height="36" FontSize="16" Click="btnDelete_Click" FontFamily="Arial"/>
+        <Button x:Name="btnQuit" Content="Back" HorizontalAlignment="Left" Margin="65,603,0,0" VerticalAlignment="Top" Width="185" Height="36" FontSize="16" Click="btnQuit_Click" FontFamily="Arial"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="731,180,0,0" VerticalAlignment="Top" Width="158" Height="30" FontSize="20" Click="btnSearch_Click" RenderTransformOrigin="0.498,0.557"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" Height="110" Margin="0,24,0,0" VerticalAlignment="Top" Width="988" Background="White">
+            <Label Content="Product Details" HorizontalAlignment="Center" Height="83" VerticalAlignment="Center" Width="360" FontSize="48" FontWeight="Bold"/>
+        </Border>
     </Grid>
 </Window>

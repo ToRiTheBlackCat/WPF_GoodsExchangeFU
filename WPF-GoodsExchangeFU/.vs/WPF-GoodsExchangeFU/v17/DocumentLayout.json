@@ -7,31 +7,35 @@
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\detailproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\owninfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\owninfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\ownproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\ownproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\detailproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\owninfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\owninfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\createproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\createproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\createproductwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,11 +43,11 @@
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\createproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -55,7 +59,7 @@
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\owninfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\ownproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\ownproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\ownproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -63,15 +67,15 @@
       "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\userinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\exchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\exchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\exchangewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\exchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\exchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\exchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -91,7 +95,7 @@
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -107,11 +111,7 @@
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\modwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\userinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\waitingreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\waitingreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\waitingreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -127,7 +127,7 @@
       "RelativeMoniker": "D:0:0:{3BA346E5-D603-4C46-8903-C0AF47FDFCC4}|Repositories\\Repositories.csproj|solutionrelative:repositories\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C130719D-FF8E-46D6-B4EC-15E19BCDE768}|Services\\Services.csproj|solutionrelative:services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -139,7 +139,7 @@
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\ownexchangewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|d:\\fpt university\\2024summer\\prn212-211\\source\\goodsexchange\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\wpf-goodsexchangefugui\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\reportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -263,7 +263,7 @@
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailProductWindow.xaml.cs",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailProductWindow.xaml.cs",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailProductWindow.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAWwCgAAAA+AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwDkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T07:43:08.408Z",
               "EditorCaption": ""
@@ -276,40 +276,14 @@
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml.cs",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml.cs",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAWwB0AAAAgAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAWwB0AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T14:51:21.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAArwBQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:09:37.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Services\\ProductService.cs",
-              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\ProductService.cs",
-              "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAIMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T06:21:52.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DetailProductWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailProductWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailProductWindow.xaml",
@@ -321,13 +295,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserInfoWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
+              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:05:50.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "OwnInfoWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
+              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwF0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T06:37:29.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwDEAAABXAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADEAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-08T06:22:09.701Z",
               "EditorCaption": ""
@@ -335,19 +335,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OwnInfoWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
-              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBwAAAAtAAAA",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAIMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T06:37:29.093Z",
+              "WhenOpened": "2024-07-08T06:21:52.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAArwBQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:09:37.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CreateProductWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
@@ -355,24 +367,22 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml.cs",
               "ViewState": "AQIAAGkAAAAAAAAAAAAAABkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:51:26.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T15:51:26.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-07T14:51:35.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T14:51:35.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
@@ -380,60 +390,55 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\MainWindow.xaml.cs",
               "ViewState": "AQIAAJkAAAAAAAAAAAArwKcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T04:18:31.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T04:18:31.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CreateProductWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\CreateProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T04:24:42.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T04:24:42.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DetailWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T03:29:33.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T03:29:33.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "OwnInfoWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\OwnInfoWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-07T14:50:44.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T14:50:44.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "OwnProductWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\OwnProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T15:33:22.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T15:33:22.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
@@ -441,24 +446,22 @@
               "RelativeToolTip": "Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T03:19:32.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T03:19:32.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserInfoWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T02:47:15.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T02:47:15.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ExchangeWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
@@ -466,36 +469,33 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml.cs",
               "ViewState": "AQIAAH4AAAAAAAAAAAAWwJAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T15:30:39.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T15:30:39.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ExchangeWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ExchangeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T15:30:34.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T15:30:34.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "WaitingProductWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T02:47:42.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T02:47:42.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "WaitingProductWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml.cs",
@@ -503,36 +503,33 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\WaitingProductWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T03:05:35.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T03:05:35.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ManageAccountWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageAccountWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ManageAccountWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageAccountWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageAccountWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-07T14:51:33.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T14:51:33.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AdminWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\AdminWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\AdminWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\AdminWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\AdminWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T02:47:35.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T02:47:35.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DetailWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
@@ -540,12 +537,11 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAWwJ0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T13:37:50.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T13:37:50.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
@@ -553,45 +549,29 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T13:23:10.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T13:23:10.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-07T14:51:37.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T14:51:37.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "ModWindow.xaml",
               "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
               "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-07T14:51:40.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserInfoWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
-              "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\UserInfoWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T03:05:50.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T14:51:40.436Z"
             },
             {
               "$type": "Document",
@@ -602,8 +582,7 @@
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T06:31:53.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T06:31:53.518Z"
             },
             {
               "$type": "Document",
@@ -614,8 +593,7 @@
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\OwnExchangeWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\OwnExchangeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-07T14:50:42.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T14:50:42.227Z"
             },
             {
               "$type": "Document",
@@ -626,8 +604,7 @@
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ReportWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ReportWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-08T04:24:58.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T04:24:58.142Z"
             },
             {
               "$type": "Document",
@@ -638,8 +615,7 @@
               "ToolTip": "D:\\FPT UNIVERSITY\\2024Summer\\PRN212-211\\source\\GoodsExchange\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-05T04:06:35.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T04:06:35.37Z"
             },
             {
               "$type": "Document",
@@ -651,8 +627,7 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-08T02:47:34.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T02:47:34.679Z"
             },
             {
               "$type": "Document",
@@ -664,8 +639,7 @@
               "RelativeToolTip": "Repositories\\GoodsExchangeFudbContext.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T03:35:03.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T03:35:03.846Z"
             },
             {
               "$type": "Document",
@@ -677,8 +651,7 @@
               "RelativeToolTip": "Repositories\\Entities\\User.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T03:19:42.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T03:19:42.338Z"
             },
             {
               "$type": "Document",
@@ -690,8 +663,7 @@
               "RelativeToolTip": "Services\\ReportService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T04:20:14.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T04:20:14.554Z"
             },
             {
               "$type": "Document",
@@ -703,8 +675,7 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageAccountWindow.xaml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T03:30:50.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T03:30:50.901Z"
             },
             {
               "$type": "Document",
@@ -728,12 +699,7 @@
               "RelativeToolTip": "..\\.gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-08T03:52:47.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-07-08T03:52:47.043Z"
             },
             {
               "$type": "Document",
@@ -769,8 +735,7 @@
               "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ManageExchangeWindow.xaml.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAnwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T04:07:53.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T04:07:53.24Z"
             }
           ]
         }

@@ -92,8 +92,25 @@ namespace WPF_GoodsExchangeFUGUI
             else if (btnFemale.IsChecked == true) { user.Gender = false; }
             user.Dob = DateOnly.FromDateTime((DateTime)dateBirthday.SelectedDate);
             user.Address = txtAddress.Text;
-            bool check = _service.UpdateUser(user);
-            if(check) { MessageBox.Show("Detail updated successfully!"); }
+            var valid = notNullCheck(user);
+            if(valid) {
+                bool check = _service.UpdateUser(user);
+                if (check) { MessageBox.Show("Detail updated successfully!"); }
+            }
+            else { MessageBox.Show("Please fill in all fields!"); }
+            
+        }
+
+        private bool notNullCheck(User user)
+        {
+            if (!(user.UserName != null
+                && user.Password != null
+                && user.Phone != null
+                && user.Gender != null
+                && user.Dob != null
+                && user.Address != null))
+            { return false; }
+            else { return true; }
         }
     }
 }

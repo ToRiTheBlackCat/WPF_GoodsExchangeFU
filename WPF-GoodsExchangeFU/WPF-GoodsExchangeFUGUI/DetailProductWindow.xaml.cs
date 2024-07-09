@@ -36,6 +36,7 @@ namespace WPF_GoodsExchangeFUGUI
         private void dgrProductInfo_Loaded(object sender, RoutedEventArgs e)
         {
             prodList = _service.GetProductsByUser(LoginUser.UserId);
+            dgrProductInfo.ItemsSource = prodList;
         }
 
         private void btnQuit_Click(object sender, RoutedEventArgs e)
@@ -45,8 +46,44 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-            Product prod = dgrProductInfo.SelectedItem as Product;
-            _service.UpdateProduct(prod);
+            if (dgrProductInfo.SelectedItem == null)
+            {
+                MessageBox.Show("Please choose an account to update!");
+            }
+            else 
+            {
+                Product prod = dgrProductInfo.SelectedItem as Product;
+                _service.UpdateProduct(prod);
+                dgrProductInfo_Loaded(sender, e);
+            }
+        }
+
+        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            if (dgrProductInfo.SelectedItem == null)
+            {
+                MessageBox.Show("Please choose an account to update!");
+            }
+            else
+            {
+                Product prod = dgrProductInfo.SelectedItem as Product;
+                var result = System.Windows.MessageBox.Show("Are you sure you want to delete this entry?", "Are you sure?", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    _service.RemoveProduct(prod.ProductId);
+                    dgrProductInfo_Loaded(sender, e);
+                }
+                else if (result == MessageBoxResult.No)
+                {
+
+                }
+            }
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            prodList = _service.GetProductsByName(inpSearch.Text);
+            dgrProductInfo.ItemsSource = prodList;
         }
     }
 }

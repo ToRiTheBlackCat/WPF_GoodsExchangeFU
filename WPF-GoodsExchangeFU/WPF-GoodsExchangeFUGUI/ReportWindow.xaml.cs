@@ -1,4 +1,6 @@
-﻿using System;
+using Repositories;
+using Repositories.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,38 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class ReportWindow : Window
     {
+        private int _userID;
+        private int _productID;
+
         public ReportWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            string detail = ReportContentTextBox.Text;
+            SaveReport(_userID, _productID, detail);
+            MessageBox.Show("Report submitted!");
+            this.Close();
+        }
+
+        private void SaveReport(int userID, int productID, string detail)
+        {
+            using (var context = new GoodsExchangeFudbContext())
+            {
+                var report = new Report
+                {
+                    UserId = userID,
+                    ProductId = productID,
+                    Detail = detail,
+                    ReportDate = DateTime.Now,
+                    Status = 0 
+                };
+                context.Reports.Add(report);
+                context.SaveChanges();
+            }
         }
     }
 }

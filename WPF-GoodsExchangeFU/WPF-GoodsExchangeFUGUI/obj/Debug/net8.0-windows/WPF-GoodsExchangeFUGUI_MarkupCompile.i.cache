@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\
 WPF_GoodsExchangeFUGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
-17-554987101
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
+18-528499373
 
-22-1297542780
-246572293223
-AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
+23831950822
+2461166291835
+AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;RatingsAndCommentsWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
 
-True
+False
 

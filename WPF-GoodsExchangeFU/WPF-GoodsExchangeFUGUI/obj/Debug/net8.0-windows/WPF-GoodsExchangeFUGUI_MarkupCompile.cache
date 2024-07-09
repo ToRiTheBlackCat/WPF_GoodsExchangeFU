@@ -4,43 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\
-=======
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
-=======
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
 WPF_GoodsExchangeFUGUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-<<<<<<< HEAD
-<<<<<<< HEAD
-D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
-16-224716208
-
-19324200203
-246572293223
-AdminWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
-=======
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
 17-554987101
 
 20-1176204012
 2461166291835
 AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
-=======
-C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
-17-554987101
 
-20-1176204012
-2461166291835
-AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
-
-False
+True
 

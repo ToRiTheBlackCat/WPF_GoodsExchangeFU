@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF-GoodsExchangeFUGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+848a10bb04058730a4ad16b9a796f0fb1d211502")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30be6a8740ac8064983e5a6070051dd15117f2f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF-GoodsExchangeFUGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF-GoodsExchangeFUGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,7 +14,8 @@ namespace Repositories
         public List<Exchange> GetAllExchange()
         {
             _context = new();
-            return _context.Exchanges.ToList();
+            return _context.Exchanges.Include("ExchangeDetails")
+                                     .Include("Product").ToList();
         }
         public List<Exchange> GetExchanges()
         {

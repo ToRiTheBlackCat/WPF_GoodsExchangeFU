@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.deps.json
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.pdb
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\refint\Repositories.dll
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.pdb
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\ref\Repositories.dll
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.deps.json
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.dll
@@ -30,9 +13,6 @@ D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
 D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\ref\Repositories.dll
-=======
-=======
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.deps.json
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.dll
@@ -48,7 +28,3 @@ C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WP
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.pdb
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\ref\Repositories.dll
-<<<<<<< HEAD
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f
-=======
->>>>>>> 927185f24f14594e07016a85b61274202db3e93f

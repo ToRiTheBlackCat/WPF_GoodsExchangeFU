@@ -24,6 +24,8 @@ namespace WPF_GoodsExchangeFUGUI
         public LoginWindow()
         {
             InitializeComponent();
+            EmailTextBox.Text = "student1@gmail.com";
+            PasswordBox.Password = "12345@";
         }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
@@ -33,6 +35,7 @@ namespace WPF_GoodsExchangeFUGUI
                 MessageBox.Show("Please enter both email and password.", "Incomplete Data", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
+            
             string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 

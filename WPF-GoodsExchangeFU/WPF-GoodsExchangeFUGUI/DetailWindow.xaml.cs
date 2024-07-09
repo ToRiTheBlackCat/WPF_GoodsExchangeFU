@@ -22,6 +22,7 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class DetailWindow : Window
     {
+        private UserService service = new();
         public DetailWindow()
         {
             InitializeComponent();
@@ -101,7 +102,7 @@ namespace WPF_GoodsExchangeFUGUI
                 if (string.IsNullOrEmpty(userName))
                     throw new Exception("User field is empty!");
 
-                UserService service = new UserService();
+                
                 var reportedUser = service.GetUserByName(userName);
                 if (reportedUser == null)
                     throw new Exception($"No user with this name (\"{userName}\")!");
@@ -160,6 +161,16 @@ namespace WPF_GoodsExchangeFUGUI
             };
             exchangeWindow.ShowDialog();
             this.Close();
+        }
+
+        private void btnViewProfile_Click(object sender, RoutedEventArgs e)
+        {
+            UserInfoWindow userInfoWindow = new UserInfoWindow() 
+            { 
+            SelectedUser = service.GetUserByName(ProductView.UserName)
+            };
+            userInfoWindow.ShowDialog();
+
         }
     }
 }

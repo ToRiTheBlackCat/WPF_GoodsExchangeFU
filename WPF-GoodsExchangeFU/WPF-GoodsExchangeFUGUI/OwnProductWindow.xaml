@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="OwnProductWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="OwnProductWindow" Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Loaded="Window_Loaded">
     <Grid>
-        
+        <DataGrid x:Name="dgrProducts" Margin="10,103,10,105" IsReadOnly="True" FontSize="16" AutoGenerateColumns="False" MouseDoubleClick="dgrProducts_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding ProductName}" Header="Product Name" Width="*"/>
+                <DataGridTextColumn Binding="{Binding ProductImage}" Header="Product Image" Width="*"/>
+                <DataGridTextColumn Binding="{Binding ProductDescription}" Header="Product Description" Width="*"/>
+                <DataGridTextColumn Binding="{Binding ProductPrice}" Header="Product Price" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Type.TypeName}" Header="Product Type" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Status}" Header="Status"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Your Products" HorizontalAlignment="Center" Margin="0,23,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="36" FontWeight="Bold" Foreground="#FFFD6C06"/>
+        <Button x:Name="btnReturn" Content="Return" HorizontalAlignment="Center" Margin="0,610,0,0" VerticalAlignment="Top" Height="32" Width="96" FontFamily="Arial" FontSize="18" FontWeight="Bold" Click="btnReturn_Click"/>
     </Grid>
 </Window>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
-17-554987101
+18-528499373
 
-20-1176204012
+21953289590
 2461166291835
-AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
+AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;RatingsAndCommentsWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
 
-True
+False
 

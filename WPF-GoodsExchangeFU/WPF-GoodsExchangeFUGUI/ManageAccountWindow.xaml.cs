@@ -77,6 +77,10 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
+           MessageBoxResult result = MessageBox.Show("Do you sure want to delete this user?", "Confirm",MessageBoxButton.YesNo,MessageBoxImage.Question);
+            if(result == MessageBoxResult.No)
+                return;
+            
             if(sender is FrameworkElement frameworkElement && frameworkElement.DataContext is User user) 
             {
                 _userService.DeleteUser(user.UserId);

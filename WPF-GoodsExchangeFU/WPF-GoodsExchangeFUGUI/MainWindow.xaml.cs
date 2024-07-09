@@ -1,5 +1,7 @@
 ﻿using Repositories.Entities;
 using Services;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
@@ -9,15 +11,35 @@ namespace WPF_GoodsExchangeFUGUI
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, INotifyPropertyChanged
     {
         public MainWindow()
         {
             InitializeComponent();
-                //new ProductService().GetProductsUI("search", "name",new int[] { });
+            DataContext = this;
+            //new ProductService().GetProductsUI("search", "name",new int[] { });
+        }
+        private User loginedUser;
+        public User LoginedUser
+        {
+            get => loginedUser;
+            set
+            {
+                loginedUser = value;
+                OnPropertyChanged(nameof(LoginedUser));
+            }
+        }
+        public void UpdateLoginedUser(User updatedUser)
+        {
+            LoginedUser = updatedUser;
         }
 
-        public User LoginedUser;
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
 
         private void cbxOrder_Loaded(object sender, RoutedEventArgs e)
         {
@@ -184,6 +206,25 @@ namespace WPF_GoodsExchangeFUGUI
         private void btnCreate_Copy_Click(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
+        }
+
+        private void MyProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            OwnInfoWindow ownInfoWindow = new OwnInfoWindow(loginedUser, this);
+            ownInfoWindow.ShowDialog();
+
+        }
+
+        private void MyProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            OwnProductWindow ownProductWindow = new OwnProductWindow();
+            ownProductWindow.LoginUser = loginedUser;
+            ownProductWindow.ShowDialog();
+        }
+
+        private void MyExchangeButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

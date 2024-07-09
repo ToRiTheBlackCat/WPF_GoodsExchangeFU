@@ -1,4 +1,5 @@
-﻿using Repositories.Entities;
+﻿
+using Repositories.Entities;
 using Services;
 using System;
 using System.Collections.Generic;
@@ -22,15 +23,36 @@ namespace WPF_GoodsExchangeFUGUI
     public partial class UserInfoWindow : Window
     {
         private UserService _service = new();
+        private User selecteddUser;
+        public User SelectedUser
+        {
+            get => selecteddUser;
+            set
+            {
+                selecteddUser = value;
+            }
+        }
         public UserInfoWindow()
         {
             InitializeComponent();
+            Loaded += Window_Loaded;
         }
 
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            List<User> user = _service.GetUserByName(searchUser.Text);
-            dgrUser.ItemsSource = user;
+            txtName.Text = selecteddUser.UserName;
+            txtEmail.Text = selecteddUser.Email;
+            txtPhone.Text = selecteddUser.Phone;
+            if (selecteddUser.Gender) { txtGender.Text = "Male"; }
+            else { txtGender.Text = "Female"; }
+            BirthdateDatePicker.SelectedDate = selecteddUser.Dob.Value.ToDateTime(TimeOnly.MinValue);
+            txtAddress.Text = selecteddUser.Address;
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -38,6 +38,7 @@
                 <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="84,432,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnExit_Click"/>
                 <Button x:Name="btnReport" Content="Report" HorizontalAlignment="Left" Margin="261,365,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnReport_Click"/>
                 <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="261,433,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnRemove_Click"/>
+                <Button x:Name="btnViewProfile" Content="View Profile" HorizontalAlignment="Left" Margin="348,269,0,0" VerticalAlignment="Top" Height="32" Width="123" Click="btnViewProfile_Click"/>
             </Grid>
         </GroupBox>
         <Grid Margin="40,152,0,0" Height="380" Width="380" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">

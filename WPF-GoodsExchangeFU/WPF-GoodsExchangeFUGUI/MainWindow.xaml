@@ -11,7 +11,7 @@
             <ColumnDefinition Width="713*"/>
             <ColumnDefinition Width="307*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Main Window" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Arial" FontWeight="Bold" Width="626" Height="65"/>
+        <Label Content="Home Page" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Arial" FontWeight="Bold" Width="333" Height="65"/>
         <DataGrid x:Name="dgvProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="28,241,0,26" FontSize="16" HorizontalAlignment="Left" Width="666" IsReadOnly="True" MouseDoubleClick="dgvProducts_MouseDoubleClick"/>
         <GroupBox x:Name="grbCategory" Header="Category" Margin="28,75,19,0" FontSize="20" FontWeight="Bold" Height="147" VerticalAlignment="Top">
             <GroupBox.Background>
@@ -66,5 +66,14 @@
         </GroupBox>
         <Button x:Name="btnCreate" Content="CREATE" HorizontalAlignment="Left" Margin="75,417,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnCreate_Click"/>
         <Button x:Name="btnCreate_Copy" Content="EXIT" HorizontalAlignment="Left" Margin="75,549,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnCreate_Copy_Click"/>
+        <Expander x:Name="AccountExpander" HorizontalAlignment="Left" Height="195" Header="{Binding LoginedUser.UserName, FallbackValue='Account'}" Margin="491,22,0,0" VerticalAlignment="Top" Width="203" FontSize="18">
+            <Grid Background="#FF91EFF1" Height="170">
+                <StackPanel Height="170">
+                    <Button x:Name="MyProfileButton" Content="My Profile" Margin="0 8"  Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyProfileButton_Click"/>
+                    <Button x:Name="MyProductButton" Content="My Products" Margin="0 8"  Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyProductButton_Click"/>
+                    <Button x:Name="MyExchangeButton" Content="My Exchanges" Margin="0 8" Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyExchangeButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </Expander>
     </Grid>
 </Window>

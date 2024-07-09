@@ -23,10 +23,13 @@ namespace WPF_GoodsExchangeFUGUI
     {
         private int _exchangeID;
         private int _userID;
-
-        public RatingsAndCommentsWindow(int exchangeID, int userID)
+        public RatingsAndCommentsWindow()
         {
             InitializeComponent();
+        }
+        public RatingsAndCommentsWindow(int exchangeID, int userID)
+        {
+            
             _exchangeID = exchangeID;
             _userID = userID;
         }

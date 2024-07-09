@@ -44,5 +44,10 @@ namespace Repositories
             _context = new GoodsExchangeFudbContext();
             return _context.ProductTypes.ToList();
         }
+
+        public List<Product>? GetProductsByName(string text)
+        {
+            return _context.Products.Where(p => p.ProductName.Contains(text)).ToList();
+        }
     }
 }

@@ -24,23 +24,23 @@ namespace WPF_GoodsExchangeFUGUI
             InitializeComponent();
         }
 
-
-        private void Manage_Exchange_Button_Click(object sender, RoutedEventArgs e)
-        {
-            ManageExchangeWindow manageExchangeWindow = new ManageExchangeWindow();
-            manageExchangeWindow.Show();
-        }
-
-        private void Manage_Account_Button_Click(object sender, RoutedEventArgs e)
-        {
-            ManageAccountWindow manageAccountWindow = new ManageAccountWindow();
-            manageAccountWindow.Show();
-        }
-
-
         private void Quit_Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            MessageBoxResult answer = MessageBox.Show("Do you want to logout and quit?", "Quit", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+                Application.Current.Shutdown();
+        }
+
+        private void ManageAccount_Click(object sender, RoutedEventArgs e)
+        {
+            ManageAccountWindow manageAccountWindow = new ManageAccountWindow();
+            manageAccountWindow.ShowDialog();
+        }
+
+        private void ManageExchange_Click(object sender, RoutedEventArgs e)
+        {
+            ManageExchangeWindow manageExchangeWindow = new ManageExchangeWindow();
+            manageExchangeWindow.ShowDialog();
         }
     }
 }

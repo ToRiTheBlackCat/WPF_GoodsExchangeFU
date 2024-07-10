@@ -1,3 +1,33 @@
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+D:\FPT UNIVERSITY\2024Summer\PRN212-211\source\GoodsExchange\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\Repositories.genruntimeconfig.cache
+C:\Users\PC\Desktop\KTPM-DH FPT\SEMESTER_5\PRN212\Project\WPF_GoodsExchangeFU\WPF-GoodsExchangeFU\Repositories\obj\Debug\net8.0\ref\Repositories.dll
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.deps.json
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.runtimeconfig.json
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\Repositories\bin\Debug\net8.0\Repositories.dll

@@ -21,11 +21,10 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class ManageAccountWindow : Window
     {
-        private readonly UserService _userService; 
+        private  UserService _userService = new(); 
         public ManageAccountWindow()
         {
             InitializeComponent();
-            _userService = new UserService();
             LoadAccount();
         }
 
@@ -44,7 +43,7 @@ namespace WPF_GoodsExchangeFUGUI
 
             if(!string.IsNullOrWhiteSpace(email) && !string.IsNullOrWhiteSpace(username)&& !string.IsNullOrWhiteSpace(password))
             {
-                User user = new User
+                User user = new User()
                 {
                     UserName = username,
                     Email = email,
@@ -78,6 +77,10 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
+           MessageBoxResult result = MessageBox.Show("Do you sure want to delete this user?", "Confirm",MessageBoxButton.YesNo,MessageBoxImage.Question);
+            if(result == MessageBoxResult.No)
+                return;
+            
             if(sender is FrameworkElement frameworkElement && frameworkElement.DataContext is User user) 
             {
                 _userService.DeleteUser(user.UserId);

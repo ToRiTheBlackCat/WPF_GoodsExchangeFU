@@ -5,8 +5,75 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="1020">
-    <Grid>
-
+        Title="MainWindow" Height="700" Width="1020" WindowStartupLocation="CenterScreen" FontFamily="Arial">
+    <Grid Background="#FFD4F7D4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="713*"/>
+            <ColumnDefinition Width="307*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Home Page" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Arial" FontWeight="Bold" Width="333" Height="65"/>
+        <DataGrid x:Name="dgvProducts" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="28,241,0,26" FontSize="16" HorizontalAlignment="Left" Width="666" IsReadOnly="True" MouseDoubleClick="dgvProducts_MouseDoubleClick"/>
+        <GroupBox x:Name="grbCategory" Header="Category" Margin="28,75,19,0" FontSize="20" FontWeight="Bold" Height="147" VerticalAlignment="Top">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                    <GradientStop Color="#FE2FB6B9" Offset="0"/>
+                    <GradientStop Color="#FE1CCA76"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid x:Name="grbCateSelect" Margin="0,0,-2,0" Height="118">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="55*"/>
+                    <RowDefinition Height="4*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <RadioButton x:Name="rdbtnElectronics" Margin="28,15,0,73" GroupName="cate" Content="Electronics" HorizontalAlignment="Left" Width="165" Tag="1" Checked="rdbtn_Checked" Click="rdbtn_Click"/>
+                <RadioButton x:Name="rdbtnAccessories" Margin="28,44,0,44" GroupName="cate" Content="Accessories" HorizontalAlignment="Left" Width="165" Tag="3" Checked="rdbtn_Checked" Click="rdbtn_Click"/>
+                <RadioButton x:Name="rdbtnHouseware" Margin="225,44,0,44" GroupName="cate" Content="Houseware" HorizontalAlignment="Left" Width="165" Tag="4" Checked="rdbtn_Checked" Click="rdbtn_Click"/>
+                <RadioButton x:Name="rdbtnClothes" Margin="225,77,0,11" GroupName="cate" Content="Clothes" HorizontalAlignment="Left" Width="164" Tag="6" Checked="rdbtn_Checked" Click="rdbtn_Click"/>
+                <RadioButton x:Name="rdbtnSchoolSupplies" Margin="28,77,0,11" GroupName="cate" Content="School supplies" HorizontalAlignment="Left" Width="178" Tag="5" Checked="rdbtn_Checked" Click="rdbtn_Click"/>
+                <RadioButton x:Name="rdbtnBooks" Margin="225,15,0,69" GroupName="cate" Content="Books" HorizontalAlignment="Left" Width="103" Tag="2" Checked="rdbtn_Checked" Click="rdbtn_Click"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="grbFIlter" Header="Filter" Margin="10,61,10,0" FontSize="20" FontWeight="Bold" Grid.Column="1" Height="281" VerticalAlignment="Top">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                    <GradientStop Color="#FE2FB6B9" Offset="0"/>
+                    <GradientStop Color="#FE1CCA76"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Content="Search:" HorizontalAlignment="Left" Margin="13,54,0,0" VerticalAlignment="Top" FontSize="14"/>
+                <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Margin="92,58,0,0" VerticalAlignment="Top" Width="177" FontSize="14" Height="26"/>
+                <Label Content="Order by:" HorizontalAlignment="Left" Margin="13,10,0,0" VerticalAlignment="Top" FontSize="14" Width="74"/>
+                <ComboBox x:Name="cbxOrder" HorizontalAlignment="Left" Margin="92,12,0,0" VerticalAlignment="Top" Width="157" Height="26" FontSize="14" SelectedIndex="1" Loaded="cbxOrder_Loaded" DropDownClosed="cbxOrder_DropDownClosed"/>
+                <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="50,207,0,0" VerticalAlignment="Top" FontSize="14" Height="31" Width="74" Click="btnSearch_Click"/>
+                <TextBox x:Name="txtPriceFrom" HorizontalAlignment="Left" Margin="180,102,0,0" Text="0" VerticalAlignment="Top" Width="80" FontSize="14" Height="26" InputScope="Number"/>
+                <TextBox x:Name="txtPriceTo" HorizontalAlignment="Left" Margin="180,142,0,0" Text="999999999" VerticalAlignment="Top" Width="80" FontSize="14" Height="26" InputScope="Number"/>
+                <Label Content="From" HorizontalAlignment="Left" Margin="124,98,0,0" VerticalAlignment="Top" FontSize="14"/>
+                <Label Content="To" HorizontalAlignment="Center" Margin="0,137,0,0" VerticalAlignment="Top" FontSize="14"/>
+                <Label Content="Price Range:" HorizontalAlignment="Left" Margin="13,98,0,0" VerticalAlignment="Top" FontSize="14"/>
+                <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="160,207,0,0" VerticalAlignment="Top" FontSize="14" Height="31" Width="74" Click="btnClear_Click"/>
+            </Grid>
+        </GroupBox>
+        <Button x:Name="btnCreate" Content="CREATE" HorizontalAlignment="Left" Margin="75,417,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnCreate_Click"/>
+        <Button x:Name="btnExit" Content="EXIT" HorizontalAlignment="Left" Margin="75,549,0,0" VerticalAlignment="Top" FontSize="20" Height="65" Width="130" Grid.Column="1" FontWeight="Bold" Click="btnExit_Click"/>
+        <Expander x:Name="AccountExpander" HorizontalAlignment="Left" Height="195" Header="{Binding LoginedUser.UserName, FallbackValue='Account'}" Margin="491,22,0,0" VerticalAlignment="Top" Width="203" FontSize="18" Expanded="AccountExpander_Expanded">
+            <Grid Background="#FF91EFF1" Height="170">
+                <StackPanel Height="170">
+                    <Button x:Name="MyProfileButton" Content="My Profile" Margin="0 8"  Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyProfileButton_Click"/>
+                    <Button x:Name="MyProductButton" Content="My Products" Margin="0 8"  Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyProductButton_Click"/>
+                    <Button x:Name="MyExchangeButton" Content="My Exchanges" Margin="0 8" Background="#FF0B442F" Foreground="#FFFFFCFC" Height="40" Click="MyExchangeButton_Click"/>
+                </StackPanel>
+            </Grid>
+        </Expander>
     </Grid>
 </Window>

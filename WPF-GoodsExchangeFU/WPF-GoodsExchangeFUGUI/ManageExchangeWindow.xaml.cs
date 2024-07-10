@@ -21,17 +21,16 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class ManageExchangeWindow : Window
     {
-        private readonly UserService _userService;
+        private ExchangeService _exchangeService = new();
         public ManageExchangeWindow()
         {
             InitializeComponent();
-            _userService = new UserService();
             LoadExchange();
         }
 
         private void LoadExchange()
         {
-            List<Exchange> exchanges = _userService.GetAllExchange();
+            List<Exchange> exchanges = _exchangeService.GetAllExchange();
             ExchangesDataGrid.ItemsSource = exchanges;
         }
 

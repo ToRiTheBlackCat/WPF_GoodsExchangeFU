@@ -11,6 +11,7 @@ namespace Services
     public class UserService
     {
         private UserRepository _repo = new();
+
         public void BanUser(int userId)
         {
             var user = _repo.GetUser(userId);
@@ -25,7 +26,8 @@ namespace Services
             }
         }
 
-        public User? AuthenticateUser(string email, string password) {
+        public User? AuthenticateUser(string email, string password)
+        {
             return _repo.GetUserByEmailandPassword(email, password);
         }
 
@@ -48,9 +50,28 @@ namespace Services
             return _repo.GetAllExchange();
         }
 
+
         public void RegisterUser(User user)
         {
             _repo.CreateUser(user);
+        }
+        public User? GetUserByName(string userName)
+        {
+            return _repo.GetUsersByName(userName);
+        }
+
+        public bool UpdateUser(User user)
+        {
+            return _repo.UpdateUser(user);
+        }
+        public double GetAveScore(User user)
+        {
+            var listScore = _repo.GetAllScoresOfUser(user);
+            return  (listScore != null && listScore.Any()) ?(double)listScore.Average() : 0;
+        }
+        public List<Rating> GetRatingsOfUser(User user)
+        {
+            return _repo.GetAllRating(user);
         }
     }
 }

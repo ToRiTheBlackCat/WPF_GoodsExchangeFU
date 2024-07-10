@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WPF-GoodsExchangeFU/WPF-GoodsExchangeFUGUI/appsettings.json
+/WPF-GoodsExchangeFU/.vs/
+*.vsidx

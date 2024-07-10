@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repositories.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,14 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class ModWindow : Window
     {
+        private User _loginUser;
+
+        public User LoginedUser
+        {
+            get { return _loginUser; }
+            set { _loginUser = value; }
+        }
+
         public ModWindow()
         {
             InitializeComponent();
@@ -26,7 +35,7 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void HomePageButton_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new();
+            MainWindow mainWindow = new() { LoginedUser = _loginUser };
             mainWindow.ShowDialog();
         }
 

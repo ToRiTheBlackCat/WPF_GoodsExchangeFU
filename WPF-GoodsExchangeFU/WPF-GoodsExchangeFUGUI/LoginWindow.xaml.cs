@@ -1,4 +1,5 @@
-﻿using Services;
+﻿using Repositories.Entities;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,52 +21,71 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class LoginWindow : Window
     {
-        private readonly UserService _userService;
+        private  UserService _userService = new();
         public LoginWindow()
         {
             InitializeComponent();
-            _userService = new UserService();
+            EmailTextBox.Text = "student1@gmail.com";
+            PasswordBox.Password = "12345@";
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public User LoginUser { get; private set; }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(EmailTextBox.Text) || string.IsNullOrWhiteSpace(PasswordBox.Password))
+            {
+                MessageBox.Show("Please enter both email and password.", "Incomplete Data", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            
             string email = EmailTextBox.Text;
             string password = PasswordBox.Password;
 
             var user = _userService.AuthenticateUser(email, password);
-            
-            if(user != null)
+
+            if (user != null)
             {
                 MessageBox.Show($"Login successful! Welcome, {user.UserName}");
-                switch(user.RoleId) {
+                switch (user.RoleId)
+                {
                     case 1:
                         AdminWindow adminWindow = new AdminWindow();
                         adminWindow.Show();
                         this.Close();
                         break;
-                    case 2: 
-                        ModWindow modWindow = new ModWindow();
-                        modWindow.Show(); 
+                    case 2:
+                        ModWindow modWindow = new ModWindow()
+                        {
+                            LoginedUser = user,
+                        };
+                        modWindow.Show();
                         this.Close();
                         break;
                     case 3:
-                        MainWindow mainWindow = new MainWindow();
+                        MainWindow mainWindow = new MainWindow()
+                        {
+                            LoginedUser = user,
+                        };
                         mainWindow.Show();
                         this.Close();
-                        break;
-                    default:
-                        MessageBox.Show("Unknown role");
                         break;
                 }
             }
             else
             {
-                MessageBox.Show("Invalid email or password");
+                MessageBox.Show("Account not found", "Incorrect email or password", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult answer = MessageBox.Show("Do you want to logout and quit?", "Quit", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+                Application.Current.Shutdown();
+        }
+
+        private void SignUp_Button_Click(object sender, RoutedEventArgs e)
         {
             RegisterWindow registerWindow = new RegisterWindow();
             registerWindow.Show();

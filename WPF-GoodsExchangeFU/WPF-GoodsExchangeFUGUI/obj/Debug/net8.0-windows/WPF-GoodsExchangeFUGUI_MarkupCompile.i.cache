@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\App.xaml
-17-1049147170
+19-1352930335
 
-221456009630
+242085099017
 246-1794768118
-AdminWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;RegisterWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
+AdminWindow.xaml;CreateProductWindow.xaml;DetailProductWindow.xaml;DetailWindow.xaml;ExchangeWindow.xaml;LoginWindow.xaml;MainWindow.xaml;ManageAccountWindow.xaml;ManageExchangeWindow.xaml;ModWindow.xaml;OwnExchangeWindow.xaml;OwnInfoWindow.xaml;OwnProductWindow.xaml;RatingsAndCommentsWindow.xaml;RegisterWindow.xaml;ReportWindow.xaml;UserInfoWindow.xaml;WaitingProductWindow.xaml;WaitingReportWindow.xaml;
 
 True
 

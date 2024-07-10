@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="DetailWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="DetailWindow" Height="700" Width="1020" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" FontFamily="Arial">
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="Detail Window" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="48" FontFamily="Arial" FontWeight="Bold" Width="626" Height="65"/>
+        <GroupBox x:Name="grbCategory" Header="Product Details" Margin="0,80,34,0" FontSize="20" FontWeight="Bold" Height="564" VerticalAlignment="Top" HorizontalAlignment="Right" Width="511">
+            <GroupBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                    <GradientStop Color="#FE2FB6B9" Offset="0"/>
+                    <GradientStop Color="#FE1CCA76"/>
+                </LinearGradientBrush>
+            </GroupBox.Background>
+            <Grid x:Name="grbCateSelect" Margin="10,0,8,0" Height="515">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Product Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14" Height="32" Width="149"/>
+                <TextBox x:Name="txtPdctName" HorizontalAlignment="Left" Margin="164,10,0,0" VerticalAlignment="Top" Width="271" FontSize="14" Height="69" TextWrapping="Wrap" IsReadOnly="True"/>
+                <Label Content="Product Description" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" FontSize="14" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctDesc" HorizontalAlignment="Left" Margin="164,84,0,0" VerticalAlignment="Top" Width="271" FontSize="14" Height="106" TextWrapping="Wrap" IsReadOnly="True"/>
+                <Label Content="Product Price" HorizontalAlignment="Left" Margin="10,195,0,0" VerticalAlignment="Top" FontSize="14" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctPrice" HorizontalAlignment="Left" Margin="164,195,0,0" VerticalAlignment="Top" Width="136" FontSize="14" Height="32" IsReadOnly="True"/>
+                <Label Content="Category" HorizontalAlignment="Left" Margin="10,232,0,0" VerticalAlignment="Top" FontSize="14" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctCate" HorizontalAlignment="Left" Margin="165,232,0,0" VerticalAlignment="Top" Width="151" FontSize="14" Height="32" IsReadOnly="True"/>
+                <Label Content="User" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top" FontSize="14" Height="32" Width="149" RenderTransformOrigin="0.505,1.211"/>
+                <TextBox x:Name="txtPdctUser" HorizontalAlignment="Left" Margin="165,269,0,0" VerticalAlignment="Top" Width="151" FontSize="14" Height="32" IsReadOnly="True"/>
+                <Button x:Name="btnExchange" Content="Exchange" HorizontalAlignment="Left" Margin="84,365,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnExchange_Click"/>
+                <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="84,432,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnExit_Click"/>
+                <Button x:Name="btnReport" Content="Report" HorizontalAlignment="Left" Margin="261,365,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnReport_Click"/>
+                <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="261,433,0,0" VerticalAlignment="Top" Height="48" Width="110" Click="btnRemove_Click"/>
+                <Button x:Name="btnViewProfile" Content="View Profile" HorizontalAlignment="Left" Margin="348,269,0,0" VerticalAlignment="Top" Height="32" Width="123" Click="btnViewProfile_Click"/>
+            </Grid>
+        </GroupBox>
+        <Grid Margin="40,152,0,0" Height="380" Width="380" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Image x:Name="imgPdctPic" Margin="14,13,14,14"/>
+        </Grid>
+
+
     </Grid>
 </Window>

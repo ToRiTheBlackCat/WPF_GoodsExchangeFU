@@ -1,5 +1,4 @@
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI.exe
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\appsettings.json
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI.deps.json
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI.runtimeconfig.json
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI.dll
@@ -61,7 +60,10 @@ C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsE
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\Services.pdb
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\bin\Debug\net8.0-windows\Repositories.pdb
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\RatingsAndCommentsWindow.baml
+C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\ReportWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\AdminWindow.g.cs
+C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\CreateProductWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\DetailProductWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\DetailWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\ExchangeWindow.g.cs
@@ -73,6 +75,7 @@ C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsE
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\OwnExchangeWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\OwnInfoWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\OwnProductWindow.g.cs
+C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\RatingsAndCommentsWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\RegisterWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\ReportWindow.g.cs
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\UserInfoWindow.g.cs
@@ -82,6 +85,7 @@ C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsE
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI_MarkupCompile.cache
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\WPF-GoodsExchangeFUGUI_MarkupCompile.lref
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\AdminWindow.baml
+C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\CreateProductWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\DetailProductWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\DetailWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\ExchangeWindow.baml
@@ -94,7 +98,6 @@ C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsE
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\OwnInfoWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\OwnProductWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\RegisterWindow.baml
-C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\ReportWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\UserInfoWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\WaitingProductWindow.baml
 C:\Users\ADMIN\Desktop\PRN212\Project\PRN-Project\WPF-GoodsExchangeFU\WPF-GoodsExchangeFUGUI\obj\Debug\net8.0-windows\WaitingReportWindow.baml

@@ -1,4 +1,8 @@
-﻿using System;
+﻿
+using Microsoft.VisualBasic.ApplicationServices;
+using Repositories.Entities;
+using Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using User = Repositories.Entities.User;
 
 namespace WPF_GoodsExchangeFUGUI
 {
@@ -19,9 +24,39 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class UserInfoWindow : Window
     {
+        private UserService _service = new();
+        private User selecteddUser;
+        public User SelectedUser
+        {
+            get => selecteddUser;
+            set
+            {
+                selecteddUser = value;
+            }
+        }
         public UserInfoWindow()
         {
             InitializeComponent();
+            Loaded += Window_Loaded;
+        }
+
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            txtName.Text = selecteddUser.UserName;
+            txtEmail.Text = selecteddUser.Email;
+            txtPhone.Text = selecteddUser.Phone;
+            if (selecteddUser.Gender) { txtGender.Text = "Male"; }
+            else { txtGender.Text = "Female"; }
+            BirthdateDatePicker.SelectedDate = selecteddUser.Dob.Value.ToDateTime(TimeOnly.MinValue);
+            txtAddress.Text = selecteddUser.Address;
+            tbkAveScore.Text = _service.GetAveScore(selecteddUser).ToString() + "/5";
+            RatingDataGrid.ItemsSource = _service.GetRatingsOfUser(selecteddUser);
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

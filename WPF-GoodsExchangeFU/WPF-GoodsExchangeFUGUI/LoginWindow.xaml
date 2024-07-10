@@ -10,11 +10,13 @@
         FontFamily="Aria"
         FontSize="16">
     <Grid>
-        <Label Content="Email" HorizontalAlignment="Left" Margin="237,193,0,0" VerticalAlignment="Top" Height="42" Width="68"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="237,256,0,0" VerticalAlignment="Top" Height="41" Width="90"/>
-        <TextBox x:Name="EmailTextBox" HorizontalAlignment="Left" Margin="396,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" Height="24" />
-        <Button Content="Login" HorizontalAlignment="Left" Margin="721,361,0,0" VerticalAlignment="Top" Click="Button_Click" Height="40" Width="84" RenderTransformOrigin="0.108,1.575"/>
-        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="396,256,0,0" VerticalAlignment="Top" Width="409"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="240,214,0,0" VerticalAlignment="Top" Height="42" Width="104" FontSize="30"  RenderTransformOrigin="0.902,0.562"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="207,324,0,0" VerticalAlignment="Top" Height="71" Width="137" FontSize="30"/>
+        <TextBox x:Name="EmailTextBox" HorizontalAlignment="Left" Margin="396,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="486" Height="42" />
+        <Button Content="Login" HorizontalAlignment="Left" Margin="782,432,0,0" VerticalAlignment="Top" Click="Button_Click" Height="70" Width="100" RenderTransformOrigin="0.108,1.575"/>
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="396,0,0,0" VerticalAlignment="Center" Width="486" Height="37"/>
+        <Label Content="FU Exchange Goods" HorizontalAlignment="Left" Margin="292,73,0,0" VerticalAlignment="Top" Height="72" Width="473" FontSize="50" Background="Aqua" RenderTransformOrigin="0.902,0.562"/>
+        <Button x:Name="Sign_up_Button" Content="Sign up" HorizontalAlignment="Left" Margin="574,432,0,0" VerticalAlignment="Top" Height="70" Width="119" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

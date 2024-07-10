@@ -65,7 +65,11 @@ namespace WPF_GoodsExchangeFUGUI
 
         }
 
-
-        
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow registerWindow = new RegisterWindow();
+            registerWindow.Show();
+            this.Close();
+        }
     }
 }

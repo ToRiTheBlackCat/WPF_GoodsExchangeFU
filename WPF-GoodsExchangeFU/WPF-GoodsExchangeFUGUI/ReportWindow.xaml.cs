@@ -16,9 +16,6 @@ using System.Windows.Shapes;
 
 namespace WPF_GoodsExchangeFUGUI
 {
-    /// <summary>
-    /// Interaction logic for ReportWindow.xaml
-    /// </summary>
     public partial class ReportWindow : Window
     {
         private int _userID;
@@ -32,27 +29,15 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
-            string detail = ReportContentTextBox.Text;
-            SaveReport(_userID, _productID, detail);
-            MessageBox.Show("Report submitted!");
-            this.Close();
+            
+            
         }
 
-        private void SaveReport(int userID, int productID, string detail)
+       
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            using (var context = new GoodsExchangeFudbContext())
-            {
-                var report = new Report
-                {
-                    UserId = userID,
-                    ProductId = productID,
-                    Detail = detail,
-                    ReportDate = DateTime.Now,
-                    Status = 0 
-                };
-                context.Reports.Add(report);
-                context.SaveChanges();
-            }
+            // Handle text change if needed
         }
     }
 }

@@ -47,7 +47,10 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void WaitingReportButton_Click(object sender, RoutedEventArgs e)
         {
-            WaitingReportWindow waitingReportWindow = new();
+            WaitingReportWindow waitingReportWindow = new()
+            {
+                User = LoginedUser
+            };
             waitingReportWindow.ShowDialog();
         }
 

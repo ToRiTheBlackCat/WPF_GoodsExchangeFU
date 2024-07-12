@@ -11,7 +11,7 @@ namespace Services
     public class UserService
     {
         private UserRepository _repo = new();
-
+        private ExchangeRepository _ex_repo = new();
         public void BanUser(int userId)
         {
             var user = _repo.GetUser(userId);
@@ -72,6 +72,19 @@ namespace Services
         public List<Rating> GetRatingsOfUser(User user)
         {
             return _repo.GetAllRating(user);
+        }
+
+        public bool FindRatingByExId(int exId)
+        {
+            var ex = _ex_repo.GetExchanges(exId);
+            if (ex != null)
+                return true;
+
+            return false;
+        }
+        public void AddRatingAndComment(Rating rating)
+        {
+             _repo.AddRating(rating);
         }
     }
 }

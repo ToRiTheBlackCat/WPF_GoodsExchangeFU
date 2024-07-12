@@ -24,6 +24,7 @@ namespace WPF_GoodsExchangeFUGUI
         private ReportService _service = new();
         private ProductService _productService = new();
         private UserService _userService = new();
+        public User User { get; set; }
 
         public WaitingReportWindow()
         {
@@ -101,5 +102,13 @@ namespace WPF_GoodsExchangeFUGUI
 
         }
 
+        private void WaitingReportListGataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Report selected = WaitingReportListGataGrid.SelectedItem as Report;
+            var productId = selected.ProductId.ToString();
+            DetailWindow detailWindow = new() { LoginedUser = User };
+
+
+        }
     }
 }

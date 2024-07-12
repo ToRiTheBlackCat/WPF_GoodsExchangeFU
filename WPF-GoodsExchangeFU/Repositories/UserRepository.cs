@@ -84,5 +84,11 @@ namespace Repositories
                                         .ThenInclude(e => e.User)
                                     .Where(r => r.UserId == user.UserId).ToList();
         }
+        public void AddRating(Rating rating)
+        {
+            _context = new();
+            _context.Ratings.Add(rating);
+            _context.SaveChanges();
+        }
     }
 }

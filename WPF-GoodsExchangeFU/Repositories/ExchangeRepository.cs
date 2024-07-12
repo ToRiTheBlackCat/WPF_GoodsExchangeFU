@@ -44,5 +44,11 @@ namespace Repositories
             });
             _context.SaveChanges();
         }
+
+        public Exchange GetExchanges(int exId)
+        {
+            _context = new();
+            return _context.Exchanges.FirstOrDefault(ex => ex.ExchangeId == exId);
+        }
     }
 }

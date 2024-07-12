@@ -8,7 +8,7 @@
         Title="WaitingReportWindow"  Height="700" Width="1017" Background="#FFD4F7D4" WindowStartupLocation="CenterScreen" MinWidth="1020" MaxWidth="1020" MinHeight="700" MaxHeight="700" Loaded="WaitingReport_Window_Loaded">
     <Grid>
         <Label Content="WAITING REPORT LIST" HorizontalAlignment="Center" Height="87" Margin="0,10,0,0" VerticalAlignment="Top" Width="726" FontSize="60" FontWeight="Bold" FontFamily="Arial" Foreground="#FFFD6C06"/>
-        <DataGrid x:Name="WaitingReportListGataGrid" HorizontalAlignment="Center" Height="510" Margin="0,152,0,0" VerticalAlignment="Top" Width="1000" AutoGenerateColumns="False" FontSize="16" >
+        <DataGrid x:Name="WaitingReportListGataGrid" HorizontalAlignment="Center" Height="510" Margin="0,152,0,0" VerticalAlignment="Top" Width="1000" AutoGenerateColumns="False" FontSize="16" MouseDoubleClick="WaitingReportListGataGrid_MouseDoubleClick" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID" Width="30" Binding="{Binding ReportId}"/>
                 <DataGridTextColumn Header="Writer ID" Width="75" Binding="{Binding UserId}"/>

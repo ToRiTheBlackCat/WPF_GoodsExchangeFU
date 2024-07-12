@@ -84,5 +84,12 @@ namespace WPF_GoodsExchangeFUGUI
             if (answer == MessageBoxResult.Yes)
                 Application.Current.Shutdown();
         }
+
+        private void SignUp_Button_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow registerWindow = new RegisterWindow();
+            registerWindow.Show();
+            this.Close();
+        }
     }
 }

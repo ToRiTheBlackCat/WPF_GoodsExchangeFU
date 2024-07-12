@@ -49,6 +49,12 @@ namespace Services
         {
             return _repo.GetAllExchange();
         }
+
+
+        public void RegisterUser(User user)
+        {
+            _repo.CreateUser(user);
+        }
         public User? GetUserByName(string userName)
         {
             return _repo.GetUsersByName(userName);

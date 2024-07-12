@@ -24,5 +24,11 @@ namespace Repositories
             _context.Reports.Update(report);
             _context.SaveChanges();
         }
+        public void AddReport(Report report)
+        {
+            _context = new();
+            _context.Reports.Add(report);
+            _context.SaveChanges();
+        }
     }
 }

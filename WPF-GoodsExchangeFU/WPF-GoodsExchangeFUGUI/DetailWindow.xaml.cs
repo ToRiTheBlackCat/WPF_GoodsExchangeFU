@@ -108,7 +108,11 @@ namespace WPF_GoodsExchangeFUGUI
                     throw new Exception($"No user with this name (\"{userName}\")!");
 
                 //Show Report window
-                ReportWindow reportWindow = new ReportWindow();
+                ReportWindow reportWindow = new ReportWindow()
+                {
+                    ReportedUser = reportedUser,
+                    ReportedProduct = ProductView
+                };
                 reportWindow.ShowDialog();
                 //=================
             }

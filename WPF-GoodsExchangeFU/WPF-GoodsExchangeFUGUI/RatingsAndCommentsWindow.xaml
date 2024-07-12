@@ -1,20 +1,25 @@
 <Window x:Class="WPF_GoodsExchangeFUGUI.RatingsAndCommentsWindow"
          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Ratings and Comments" Height="700" Width="1200"
-        Background="#FFD4F7D4">
+        Title="Ratings and Comments" Height="700" Width="1020"
+        Background="#FFD4F7D4" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Label Content="   Ratings and Comments" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Height="92" Width="465" FontFamily="Arial" FontSize="36"/>
-        <Label Content="Comments" HorizontalAlignment="Left" Height="30" Margin="165,110,0,0" VerticalAlignment="Top" Width="169" FontFamily="Arial" FontSize="18"/>
-        <Label Content="Rating" HorizontalAlignment="Left" Height="30" Margin="165,420,0,0" VerticalAlignment="Top" Width="169" FontFamily="Arial" FontSize="18"/>
-        <ComboBox x:Name="RatingsComboBox" HorizontalAlignment="Left" Margin="165,455,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem Content="1"  />
+        <Rectangle HorizontalAlignment="Center" Height="646" Margin="0,10,0,0" Stroke="Black" RadiusX="20" RadiusY="20" VerticalAlignment="Top" Width="940" Fill="#FFFBFFBB"/>
+        <Label Content="   Ratings and Comments" HorizontalAlignment="Center" Margin="0,32,0,0" VerticalAlignment="Top" Height="92" Width="465" FontFamily="Arial" FontSize="36" Foreground="#FFFF700C" FontWeight="Bold"/>
+        <Label Content="Comments" HorizontalAlignment="Left" Height="30" Margin="72,290,0,0" VerticalAlignment="Top" Width="122" FontFamily="Arial" FontSize="18"/>
+        <Label Content="Rating Score " HorizontalAlignment="Left" Height="30" Margin="72,197,0,0" VerticalAlignment="Top" Width="122" FontFamily="Arial" FontSize="18"/>
+        <ComboBox x:Name="RatingsComboBox" HorizontalAlignment="Left" Margin="216,196,0,0" VerticalAlignment="Top" Width="74" Height="40">
+            <ComboBoxItem Content="1" />
             <ComboBoxItem Content="2" />
             <ComboBoxItem Content="3" />
             <ComboBoxItem Content="4" />
             <ComboBoxItem Content="5" />
         </ComboBox>
-        <Button Content="Submit" HorizontalAlignment="Center" Height="60" Margin="0,533,0,0" VerticalAlignment="Top" Width="180" FontSize="16"/>
-        <TextBox HorizontalAlignment="Left" Height="270" Margin="165,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="900"/>
+        <Button x:Name="RateButton" Content="Rate &amp; Comment" HorizontalAlignment="Center" Height="60" Margin="0,579,0,0" VerticalAlignment="Top" Width="180" FontSize="20" Background="#FFFF964C" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Height="180" Margin="216,290,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="746"/>
+        <Label x:Name="RaterReceiverLabel" Content="Rater Name " HorizontalAlignment="Left" Height="30" Margin="72,108,0,0" VerticalAlignment="Top" Width="122" FontFamily="Arial" FontSize="18"/>
+        <TextBlock x:Name="RaterNameTextBlock" HorizontalAlignment="Left" Height="39" Margin="216,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="768" FontSize="20"><Run Text="Rate"/><Run Language="vi-vn" Text="r"/><Run Text="Name"/></TextBlock>
+        <Label x:Name="RateDateLabel" Content="Rate Date" HorizontalAlignment="Left" Height="30" Margin="72,508,0,0" VerticalAlignment="Top" Width="122" FontFamily="Arial" FontSize="18"/>
+        <DatePicker HorizontalAlignment="Left" Height="30" Margin="216,508,0,0" VerticalAlignment="Top" Width="185"/>
     </Grid>
 </Window>

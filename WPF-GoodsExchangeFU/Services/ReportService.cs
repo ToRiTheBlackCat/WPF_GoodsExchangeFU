@@ -19,5 +19,9 @@ namespace Services
         {
             _repo.UpdateReport(report);
         }
+        public void CreateReport(Report report)
+        {
+            _repo.AddReport(report);
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace WPF_GoodsExchangeFUGUI
         public LoginWindow()
         {
             InitializeComponent();
-            EmailTextBox.Text = "student1@gmail.com";
+            EmailTextBox.Text = "student4@gmail.com";
             PasswordBox.Password = "12345@";
         }
 

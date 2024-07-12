@@ -226,7 +226,11 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void MyExchangeButton_Click(object sender, RoutedEventArgs e)
         {
-
+            OwnExchangeWindow ownExchangeWindow = new OwnExchangeWindow()
+            {
+                _userId = LoginedUser.UserId,
+            };
+            ownExchangeWindow.ShowDialog();
         }
 
         private void AccountExpander_Expanded(object sender, RoutedEventArgs e)

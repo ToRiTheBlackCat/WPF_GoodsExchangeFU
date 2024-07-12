@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\waitingreportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\waitingreportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\waitingreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\waitingreportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\detailwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\modwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\modwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\detailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -115,69 +94,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAA9wDMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T06:29:22.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DetailWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T06:27:53.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WaitingReportWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml.cs",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAhwGwAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T06:26:12.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WaitingReportWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\WaitingReportWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T06:25:31.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DetailWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
-              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
-              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\DetailWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-12T06:24:51.685Z",
-              "EditorCaption": ""
             }
           ]
         }

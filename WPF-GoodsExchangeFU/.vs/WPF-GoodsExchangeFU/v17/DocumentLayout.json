@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\modwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\modwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|c:\\users\\pc\\desktop\\ktpm-dh fpt\\semester_5\\prn212\\project\\wpf_goodsexchangefu\\wpf-goodsexchangefu\\wpf-goodsexchangefugui\\modwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B224540B-90C6-455F-B1D9-743FE4C7E7C8}|WPF-GoodsExchangeFUGUI\\WPF-GoodsExchangeFUGUI.csproj|solutionrelative:wpf-goodsexchangefugui\\modwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,6 +103,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA5wCYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T11:54:47.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ModWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
+              "RelativeDocumentMoniker": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\KTPM-DH FPT\\SEMESTER_5\\PRN212\\Project\\WPF_GoodsExchangeFU\\WPF-GoodsExchangeFU\\WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
+              "RelativeToolTip": "WPF-GoodsExchangeFUGUI\\ModWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T11:54:28.723Z",
+              "EditorCaption": ""
             }
           ]
         }

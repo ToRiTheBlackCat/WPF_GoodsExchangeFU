@@ -12,7 +12,7 @@ namespace Repositories
             _context = new();
             return _context.Products.Include("Type").Include("User").ToList();
         }
-        public Product GetProduct(int proId)
+        public Product? GetProduct(int proId)
         {
             _context = new();
            return  _context.Products.SingleOrDefault(p => p.ProductId == proId) ;

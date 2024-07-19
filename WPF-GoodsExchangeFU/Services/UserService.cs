@@ -35,6 +35,10 @@ namespace Services
         {
             return _repo.GetAllUsers();
         }
+        public User GetUserById(int id)
+        {
+            return _repo.GetAllUsers().FirstOrDefault(u => u.UserId == id);
+        }
         public void CreateUser(User user)
         {
             _repo.CreateUser(user);

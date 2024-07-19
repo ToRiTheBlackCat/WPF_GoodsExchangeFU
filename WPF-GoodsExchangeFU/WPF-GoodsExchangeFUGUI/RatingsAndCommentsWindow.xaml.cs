@@ -22,21 +22,24 @@ namespace WPF_GoodsExchangeFUGUI
     /// </summary>
     public partial class RatingsAndCommentsWindow : Window
     {
-        public Exchange SelectedExchange { get; set; }
-        public User Rater { get; set; }
+        public int ExchangeId { get; set; }
+        public int RaterId {  get; set; }
+        private Exchange _exchange = null;
+
         private UserService _service = new();
+        private ExchangeService _ex_service = new();
         public RatingsAndCommentsWindow()
         {
             InitializeComponent();
         }
 
-        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        private void RateButton_Click(object sender, RoutedEventArgs e)
         {
             Rating rating = new()
             {
-                ExchangeId = SelectedExchange.ExchangeId,
-                UserId = SelectedExchange.Product.UserId,
-                Score = (decimal)RatingsComboBox.SelectedValue,
+                ExchangeId = _exchange.ExchangeId,
+                UserId = _exchange.Product.UserId,
+                Score = decimal.Parse((string)(RatingsComboBox.SelectedValue as ComboBoxItem).Content),
                 RatingDate = (DateTime)RateDatePicker.SelectedDate,
             };
             bool isRated = _service.FindRatingByExId(rating.ExchangeId);
@@ -53,17 +56,21 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            RaterNameTextBlock.Text = Rater.UserName;
+            var user = _service.GetUserById(RaterId);
+            RaterNameTextBlock.Text = user.UserName;
             RaterNameTextBlock.IsEnabled = false;
-            RatingsComboBox.SelectedValue = decimal.Parse(Content.ToString());
+            RatingsComboBox.SelectedValue = Content;
             RatingsComboBox.SelectedIndex = 4;
             RateDatePicker.SelectedDate = DateTime.Now;
             RateDatePicker.IsEnabled = false;
+            _exchange = _ex_service.GetExchange(ExchangeId);
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
             Close();
         }
+
+        
     }
 }

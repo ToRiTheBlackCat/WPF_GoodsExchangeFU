@@ -226,7 +226,11 @@ namespace WPF_GoodsExchangeFUGUI
 
         private void MyExchangeButton_Click(object sender, RoutedEventArgs e)
         {
-
+            OwnExchangeWindow ownExchangeWindow = new OwnExchangeWindow()
+            {
+                _userId = LoginedUser.UserId,
+            };
+            ownExchangeWindow.ShowDialog();
         }
 
         private void AccountExpander_Expanded(object sender, RoutedEventArgs e)
@@ -242,6 +246,18 @@ namespace WPF_GoodsExchangeFUGUI
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown();
+        }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult answer = MessageBox.Show("Do you want to logout?", "Quit", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (answer == MessageBoxResult.Yes)
+            {
+                
+                LoginWindow loginWindow = new();
+                loginWindow.Show();
+                Close();
+            }
         }
     }
 }

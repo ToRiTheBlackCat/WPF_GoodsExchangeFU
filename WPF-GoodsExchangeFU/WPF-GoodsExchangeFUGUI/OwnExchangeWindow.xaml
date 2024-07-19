@@ -5,8 +5,149 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_GoodsExchangeFUGUI"
         mc:Ignorable="d"
-        Title="OwnExchangeWindow" Height="450" Width="800">
+        Title="OwnExchangeWindow" Height="700" Width="1020" Background="#FFD4F7D4" FontFamily="Arial" FontSize="16" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Grid>
-        
+        <Label Content="Your Exchange Requests" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="42" Width="305" FontSize="24" FontWeight="Bold"/>
+        <TabControl Margin="10,57,10,10" SelectedIndex="1">
+            <TabItem Header="Your Product" Margin="166,-1,-170,-1">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="YourProductGrid" HorizontalAlignment="Left" Margin="10,10,0,268" Width="409" AutoGenerateColumns="True" SelectionChanged="YourProductGrid_SelectionChanged" IsReadOnly="True" IsManipulationEnabled="True">
+                        <!--<DataGrid.Columns>
+                            <DataGridTextColumn Header="Exchange ID" Binding="{Binding ExchangeId}" />
+                            <DataGridTextColumn Header="Wanted Product" Binding="{Binding WantedProductName}"/>
+                            -->
+                        <!--<DataGridTextColumn Header="Exchange Status" Binding="{Binding Status}"/>-->
+                        <!--<DataGridTextColumn Header="Seller Name" Binding="{Binding SellerName}"/>-->
+                        <!--
+                            <DataGridTextColumn Header="Your Product" Binding="{Binding OwnProductName}"/>
+                            -->
+                        <!--<DataGridTextColumn Header="Balance" Binding="{Binding Balance}"/>-->
+                        <!--
+                            <DataGridTextColumn Header="Create Date" Binding="{Binding CreateDate}"/>
+                        </DataGrid.Columns>-->
+                    </DataGrid>
+                    <Grid HorizontalAlignment="Right" Height="313" Margin="0,204,40,0" VerticalAlignment="Top" Width="486">
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FE1CCA76"/>
+                                <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Label Content="OfferProduct" HorizontalAlignment="Left" Margin="55,78,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Buyer:" HorizontalAlignment="Left" Margin="55,114,0,0" VerticalAlignment="Top" Height="31" Width="60" FontWeight="Bold"/>
+                        <Label Content="Your Product:" HorizontalAlignment="Left" Margin="55,42,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Balance Offer:" HorizontalAlignment="Left" Margin="55,151,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Created Date:" HorizontalAlignment="Left" Margin="55,187,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Sent Exchange Details" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="31" Width="182" FontWeight="Bold"/>
+                        <TextBox x:Name="OfferProductText" HorizontalAlignment="Left" Height="23" Margin="236,82,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="BuyerText" HorizontalAlignment="Left" Height="23" Margin="236,118,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="YourProductText1" HorizontalAlignment="Left" Height="23" Margin="236,46,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="BalanceText1" HorizontalAlignment="Left" Height="23" Margin="236,155,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <DatePicker x:Name="DatePicker1" HorizontalAlignment="Left" Margin="236,189,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" IsEnabled="False"/>
+                        <Button x:Name="AcceptButton" Content="ACCEPT" HorizontalAlignment="Left" Height="55" Margin="140,234,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" Click="AcceptButton_Click"/>
+                        <Button x:Name="DeclineButton" Content="DECLINE" HorizontalAlignment="Left" Height="55" Margin="270,234,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" Click="DeclineButton_Click"/>
+                    </Grid>
+                    <Button x:Name="ExitButton1" Content="EXIT" HorizontalAlignment="Left" Height="55" Margin="879,522,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" Click="ExitButton_Click"/>
+                    <DataGrid x:Name="ProductExchangeGrid" HorizontalAlignment="Left" Height="171" Margin="434,13,0,0" VerticalAlignment="Top" Width="539" d:ItemsSource="{d:SampleData ItemCount=5}" IsReadOnly="True" SelectionChanged="ProductExchangeGrid_SelectionChanged"/>
+                    <Grid Margin="10,365,0,0" Height="214" Width="217" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Image x:Name="imgPdctPic3" Margin="1,1,1,-2"/>
+                    </Grid>
+                    <Grid Margin="232,365,0,0" Height="214" Width="217" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Image x:Name="imgPdctPic4" Margin="1,0,1,-1"/>
+                    </Grid>
+                    <Rectangle HorizontalAlignment="Left" Height="230" Margin="0,357,0,0" Stroke="Black" VerticalAlignment="Top" Width="457"/>
+                    <Label Content="Their Product" HorizontalAlignment="Left" Margin="331,335,0,0" VerticalAlignment="Top" Height="28" Width="117" FontWeight="Bold" BorderBrush="#FFE5E5E5" Background="#FFE5E5E5" RenderTransformOrigin="0.5,0.5">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="1.157"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-0.313"/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+                    <Label Content="Your Product" HorizontalAlignment="Left" Margin="13,335,0,0" VerticalAlignment="Top" Height="28" Width="120" FontWeight="Bold" BorderBrush="#FFE5E5E5" Background="#FFE5E5E5" RenderTransformOrigin="0.5,0.5">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="1.157"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-0.313"/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Your Exchanges" Margin="-71,-2,67,0">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="YourExchangesDataGrid" HorizontalAlignment="Left" Margin="10,10,0,255" Width="434" AutoGenerateColumns="False" SelectionChanged="YourExchangesDataGrid_SelectionChanged" IsReadOnly="True" IsManipulationEnabled="True">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Exchange ID" Binding="{Binding ExchangeId}" />
+                            <DataGridTextColumn Header="Wanted Product" Binding="{Binding WantedProductName}"/>
+                            <!--<DataGridTextColumn Header="Seller Name" Binding="{Binding SellerName}"/>-->
+                            <DataGridTextColumn Header="Your Product" Binding="{Binding OwnProductName}"/>
+                            <!--<DataGridTextColumn Header="Balance" Binding="{Binding Balance}"/>-->
+                            <DataGridTextColumn Header="Create Date" Binding="{Binding CreateDate}"/>
+                            <!--<DataGridTextColumn Header="Exchange Status" Binding="{Binding Status}"/>-->
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Grid HorizontalAlignment="Right" Height="452" Margin="0,20,36,0" VerticalAlignment="Top" Width="490">
+                        <Grid.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FE1CCA76"/>
+                                <GradientStop Color="#FF0ACCB5" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Grid.Background>
+                        <Label Content="Wanted Product:" HorizontalAlignment="Left" Margin="51,86,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Seller:" HorizontalAlignment="Left" Margin="51,122,0,0" VerticalAlignment="Top" Height="31" Width="60" FontWeight="Bold"/>
+                        <Label Content="Your Product:" HorizontalAlignment="Left" Margin="51,158,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Balance Offer:" HorizontalAlignment="Left" Margin="51,194,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Created Date:" HorizontalAlignment="Left" Margin="51,230,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Status:" HorizontalAlignment="Left" Margin="51,266,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <Label Content="Exchange Details" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Height="31" Width="146" FontWeight="Bold"/>
+                        <TextBox x:Name="WantedProductText" HorizontalAlignment="Left" Height="23" Margin="232,90,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="SellerText" HorizontalAlignment="Left" Height="23" Margin="232,126,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="YourProductText" HorizontalAlignment="Left" Height="23" Margin="232,162,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="BalanceText" HorizontalAlignment="Left" Height="23" Margin="232,198,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <TextBox x:Name="StatussText" HorizontalAlignment="Left" Height="23" Margin="232,270,0,0" Text="TextBox" VerticalAlignment="Top" Width="218" IsReadOnly="True"/>
+                        <DatePicker x:Name="DatePicker" HorizontalAlignment="Left" Margin="232,232,0,0" VerticalAlignment="Top" FirstDayOfWeek="Monday" IsEnabled="False"/>
+                        <Button x:Name="CancelButton" Content="CANCEL" HorizontalAlignment="Left" Height="55" Margin="124,334,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" Click="CancelButton_Click"/>
+                        <Button x:Name="RateButton" Content="RATE" HorizontalAlignment="Left" Height="55" Margin="276,334,0,0" VerticalAlignment="Top" Width="104" FontWeight="Bold" Click="RateButton_Click"/>
+                    </Grid>
+                    <Button x:Name="ExitButton" Content="EXIT" HorizontalAlignment="Left" Height="55" Margin="781,503,0,0" VerticalAlignment="Top" Width="105" FontWeight="Bold" Click="ExitButton_Click"/>
+
+                    <Grid Margin="10,365,0,0" Height="214" Width="217" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Image x:Name="imgPdctPic" Margin="1,1,1,-2"/>
+                    </Grid>
+                    <Grid Margin="232,365,0,0" Height="214" Width="217" Background="#FFD4C9C9" HorizontalAlignment="Left" VerticalAlignment="Top">
+                        <Image x:Name="imgPdctPic2" Margin="1,0,1,-1"/>
+                    </Grid>
+                    <Rectangle HorizontalAlignment="Left" Height="230" Margin="0,357,0,0" Stroke="Black" VerticalAlignment="Top" Width="458"/>
+                    <Label Content="Their Product" HorizontalAlignment="Left" Margin="331,335,0,0" VerticalAlignment="Top" Height="28" Width="117" FontWeight="Bold" BorderBrush="#FFE5E5E5" Background="#FFE5E5E5" RenderTransformOrigin="0.5,0.5">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="1.157"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-0.313"/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+                    <Label Content="Your Product" HorizontalAlignment="Left" Margin="13,335,0,0" VerticalAlignment="Top" Height="28" Width="120" FontWeight="Bold" BorderBrush="#FFE5E5E5" Background="#FFE5E5E5" RenderTransformOrigin="0.5,0.5">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="1.157"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="-0.313"/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
